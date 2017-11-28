@@ -1,4 +1,3 @@
-
 /* transparence popout... */
 
 .popout-menu, .emoji-picker, .messages-popout-wrap, .messages-popout-wrap .header, .messages-popout-wrap .footer, .messages-popout .message-group, .action-buttons, .jump-button, .context-menu, .private-channel-recipients-invite,.private-channel-recipients-invite .header,.private-channel-recipients-invite .scrollerWrap-2uBjct,.private-channel-recipients-invite .friend, .private-channel-recipients-invite .friend:hover{ background-color: rgba(0,0,0,0.5) !important; }
@@ -96,7 +95,7 @@
 .backdrop-2ohBEd + .modal-2LIEKY .inner-1_1f7b .modal-3HOjGZ { 
     background-color: rgba(0,0,0,0) !important; 
 }
-.backdrop-2ohBEd + .modal-2LIEKY .footer-1PYmcw, .backdrop-2ohBEd + .modal-2LIEKY .header-3sp3cE { 
+.backdrop-2ohBEd + .modal-2LIEKY .sizeMedium-1-2BNS .footer-1PYmcw, .backdrop-2ohBEd + .modal-2LIEKY .sizeMedium-1-2BNS .header-3sp3cE { 
     background-color:var(--couleur-theme-0-2) !important; 
 }
 
