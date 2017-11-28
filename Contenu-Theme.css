@@ -34,13 +34,6 @@
     border: 3px dashed var(--couleur-theme)!important;
     margin-top: 10px;
 }
-/*
-.upload-modal .inner .file .icon {
-    background-image: url('https://www.twitchcord.com/twitchcord-theme/images/file2.png')!important;
-}
-*/
-
-
 .upload-drop-modal .inner .instructions {
     text-align: center;
     font-size: 12px;
