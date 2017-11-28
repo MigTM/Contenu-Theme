@@ -1,5 +1,70 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* bouton parametre dans les messages épinglé... */
 
 .btn-item:hover {animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity: 0.5 !important; color: var(--couleur-blanc) !important;}
@@ -2155,6 +2220,7 @@ animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity
 
 
 
+
 .ui-standard-sidebar-view .custom-container .custom-scroller>div, .custom-header { max-width: 20000px !important; }
 
 .ui-standard-sidebar-view .custom-container .custom-scroller>div { max-width: 20000px !important; }
@@ -2333,6 +2399,20 @@ ul.bda-slist{
 }
 .fade .section .connected-account-name, .fade .section .scrollbarGhostHairline-D_btXm, .fade .section .section-header { 
     color : var(--couleur-blanc) !important; 
+}
+
+@media screen and (max-width: 1300px) {
+
+.friends-column-name { width: 37% !important; }
+.friends-column-status { width: 25% !important; }
+
+}
+
+@media all and (min-width: 1300px) and (max-width: 1500px)  {
+
+.friends-column-name { width: 25% !important; }
+.friends-column-status { width: 20% !important; }
+
 }
 
 .card-3DrRmC:locked {
