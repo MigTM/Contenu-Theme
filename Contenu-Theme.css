@@ -1,11 +1,10 @@
+
+
 /* bouton parametre dans les messages épinglé... */
 
 .btn-item:hover {animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity: 0.5 !important; color: var(--couleur-blanc) !important;}
 
-/* bouton annuler popout créer catégorie */ 
-.footer-1PYmcw .buttonPrimaryLinkDefault-1PQflF { background-color: var(--couleur-rouge) !important; }
 
-.footer-1PYmcw .buttonPrimaryLinkDefault-1PQflF:hover{animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite}
 /* CONTENU */
 
  .channelTextArea-1HTP3C .innerNoAutocomplete-kaUXJZ{ background-color: var(--couleur-theme-0-2) !important; border-radius: 5px ;}
@@ -2136,6 +2135,213 @@ animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity
 
 
 
+/* CONTENU LOGO THEME / ECRITURE / BARRE DU HAUT */
+
+/* effet logo et écriture thème et speudo */
+
+.guilds-wrapper .guild-separator:after {
+    content: "Theme Hunter of Destiny";
+    z-index: 999999999999;
+    color: var(--couleur-theme);
+    text-transform: none;
+    background: transparent;
+    top: -4px;
+    left: 118px;
+    top: 1222px;
+    position: fixed;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transform: translateY(-200px); 
+    font-size: 12px;
+    pointer-events: none;
+    animation: advert 60s infinite
+}
+@keyframes advert {
+    0% {
+        transform: translateY(0);
+    }
+    0.5% {
+        transform: translateY(0);
+    }
+    5.5% {
+        transform: translateY(-200px);
+    }
+    45.5% {
+        transform: translateY(-200px);
+    }
+    50.5% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.guilds-wrapper .guild-separator:before {
+    content: "By MigTM";
+    z-index: 999999999999;
+    color: var(--couleur-theme);
+    text-transform: none;
+    background: transparent;
+    width: 100%;
+    top: -4px;
+    left: 150px;
+    top: 1222px;
+    position: fixed;
+    padding: 5px 15px;
+    transform: translateY(-200px);
+    font-size: 12px;
+    pointer-events: none;
+    animation: MigTM 60s infinite
+
+}
+@keyframes MigTM {
+    0% {
+        transform: translateY(0);
+    }
+    45.5% {
+        transform: translateY(0);
+    }
+    50.5% {
+        transform: translateY(-200px);
+    }
+    90.5% {
+        transform: translateY(-200px);
+    }
+    95.5% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.titleBar-3_fDwJ::after {
+    content: url(https://puu.sh/ynZgd/9148d7dbb7.png);
+    z-index: 999999999999;
+    color: var(--couleur-theme);
+    text-transform: none;
+    background: transparent;
+    top: -5px;
+    left: 41.38%;
+    position: absolute;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transform: translateY(-200px); 
+    font-size: 12px;
+    pointer-events: none;
+    animation: adverte 60s infinite
+}
+@keyframes adverte {
+    0% {
+        transform: translateY(0);
+    }
+    0.5% {
+        transform: translateY(0);
+    }
+    5.5% {
+        transform: translateY(-200px);
+    }
+    45.5% {
+        transform: translateY(-200px);
+    }
+    50.5% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.titleBar-3_fDwJ::before {
+    content: url(https://puu.sh/yo0nI/610b8d28c7.png);
+    z-index: 999999999999;
+    color: var(--couleur-theme);
+    text-transform: none;
+    background: transparent;
+    top: -5px;
+    left: 44.46%;
+    position: absolute;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transform: translateY(-200px); 
+    font-size: 12px;
+    pointer-events: none;
+    animation: MigTMe 60s infinite
+}
+@keyframes MigTMe {
+    0% {
+        transform: translateY(-200px);
+    }
+    0.5% {
+        transform: translateY(-200px);
+    }
+    5.5% {
+        transform: translateY(0);
+    }
+    45.5% {
+        transform: translateY(0);
+    }
+    50.5% {
+        transform: translateY(-200px);
+    }
+    100% {
+        transform: translateY(-200px);
+    }
+}
+body[tc-plugin-enabled] .guilds-wrapper .guild-separator::before {
+    left: 125px;
+}
+
+body[tc-plugin-enabled] .guilds-wrapper .guild-separator::after {
+    left: 275px;
+}
+* {
+    font-size: 100%;
+    font-family: var(--font)!important;
+}
+strong {
+    font-weight: 700;
+}
+button {
+    font-family: var(--font)!important;
+}
+input,
+textarea {
+    font-family: var(--font)!important;
+}
+
+
+/* logo discord inutile */
+
+.wordmark-2L03Wr svg {
+    display: none;
+}
+
+/* logo discord et logo thème personnel */
+
+.titleBar-3_fDwJ {
+    z-index: 99999999;
+    background: rgba(0,0,0,0.3);
+    background-image: url(https://puu.sh/yo1Iu/0ca015c4c5.png);
+    margin-top: 0px;
+    height: 26px;
+}
+
+/* boutton exit/réduire/agrandir la fenêtre */
+
+.winButton-U7zAqI {
+    width: 45px;
+    height: 30px;
+    opacity: 1;
+}
+
+/* taille de la barre du haut */
+
+.typeWindows-15E0Ys {
+    height: 25px;
+}
+
+
+
+
 
 
 
@@ -2259,7 +2465,10 @@ animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity
 
 
 
+/* bouton annuler popout créer catégorie */ 
+.footer-1PYmcw .buttonPrimaryLinkDefault-1PQflF { background-color: var(--couleur-rouge) !important; }
 
+.footer-1PYmcw .buttonPrimaryLinkDefault-1PQflF:hover{animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite}
 
 
 
