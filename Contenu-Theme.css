@@ -665,7 +665,21 @@ div .actionIcon-2JXNvo{opacity:.3}
 
 #user-profile-modal .header::before { background-color: rgba(0,0,0,0) !important; }
 
-
+.upload-modal .inner .file .icon.video,
+.upload-modal .inner .file .icon.acrobat, 
+.upload-modal .inner .file .icon.ae,
+.upload-modal .inner .file .icon.sketch,
+.upload-modal .inner .file .icon.ai,
+.upload-modal .inner .file .icon.archive,
+.upload-modal .inner .file .icon.code,
+.upload-modal .inner .file .icon.document,
+.upload-modal .inner .file .icon.photoshop,
+.upload-modal .inner .file .icon.ps,
+.upload-modal .inner .file .icon.spreadsheet,
+.upload-modal .inner .file .icon.webcode,
+.upload-modal .inner .file .icon.unknown {
+    background-image: url('https://puu.sh/yvozL/3fc38c1f73.png')!important;
+}
 
 
 
