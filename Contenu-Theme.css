@@ -12,7 +12,6 @@
     border-radius: 0;
 }
 .upload-drop-modal .inner .title {
-    color: var(--dark-text-header)!important;
     font-weight: 400!important;
     text-transform: none!important;
     font-size: 24px!important;
