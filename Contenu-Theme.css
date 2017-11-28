@@ -1,3 +1,6 @@
+/* bouton parametre dans les messages épinglé... */
+
+.btn-item:hover {animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity: 0.5 !important; color: var(--couleur-blanc) !important;}
 
 /* bouton annuler popout créer catégorie */ 
 .footer-1PYmcw .buttonPrimaryLinkDefault-1PQflF { background-color: var(--couleur-rouge) !important; }
