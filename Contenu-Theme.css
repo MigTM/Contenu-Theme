@@ -2264,7 +2264,8 @@ animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity
 
 .bd-blue .chat .welcome-message h1 { color: var(--couleur-theme) !important; }
 
-
+.user-info-editing .buttonPrimaryLinkDefault-1PQflF  { background-color: var(--couleur-rouge) !important; margin-right: 0px !important; }
+.user-info-editing .buttonPrimaryLinkDefault-1PQflF:hover {animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite}
 
 
 
