@@ -1,3 +1,131 @@
+/* contenu popout membre */
+
+.userPopout-4pfA0d .headerPlaying-2eYqm9,.userPopout-4pfA0d  .body-3rkFrF, .userPopout-4pfA0d .footer-2J5zqP, .userPopout-4pfA0d .headerNormal-1cioxU{ background: var(--couleur-theme) !important; }
+
+.buttonBrandInverted-VFL7Yc:hover {animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity: 1 !important }
+.buttonBrandInverted-VFL7Yc { border: 0px solid !important; background-color: var(--couleur-theme) !important; color: var(--couleur-blanc)!important; }
+
+
+.theme-dark .no-shadow .userPopout-4pfA0d .body-3rkFrF .note   textarea{ color: var(--couleur-blanc)!important; text-align: center !important;}
+
+.theme-dark .quickMessage-28pD5Y { color: var(--couleur-blanc) !important;  }
+
+ .userPopout-4pfA0d .weightBold-2qbcng { text-align: center !important; background-color: rgba(35,38,42,.2) !important; border: 1px solid #23262a; border-radius: 2px; }
+
+.note-39NEdV textarea, .note-39NEdV textarea::-webkit-input-placeholder { color: var(--couleur-blanc) !important; }
+
+.endBodySection-1WYzxu { text-align: center !important; }
+
+
+.userPopout-4pfA0d .avatar-1BXaQj {
+    background-clip: padding-box;
+    position: relative;
+    background: 50% 50%/cover;
+    border-radius: 10px!important;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  width: 200px!important;
+    height: 200px!important;
+  border: none;
+}
+
+.userPopout-4pfA0d .status-3jUEha{
+  width: 150%!important;
+    height: 5px!important;
+    margin-bottom: 0px !important;
+  bottom: -8%;
+  left:-20%;
+  border-radius: 0px!important;
+  border-color:rgb(0,99,132)!important;
+}
+
+
+
+.headerName-2N8Pdz {
+  margin-top: 15px !important;
+
+}
+.headerTag-3zin_i {
+  margin-bottom: -10px !important;
+}
+
+
+.mask-2vyqAW {
+    border-radius: 12.5px 12.5px ;
+    -webkit-mask: none;
+    mask: none;
+}
+
+.headerTop-1QGMLs, .activityUserPopout-1nmgaw { border-bottom: 1px solid rgba(32,34,37,.3) !important; }
+
+.bodyTitle-yehI7c { color: var(--couleur-blanc) !important; }
+.topSectionPlaying-3jAH9b, .body-3_tdh6, .topSectionNormal-2LlRG1 { background: transparent !important; }
+
+.header-2Lg0Oe, .tabBarContainer-3RVZc- { border-bottom: 1px solid rgba(32,34,37,.3)  !important; }
+.header-2Lg0Oe { background-color: rgba(0,0,0,0.35) !important; }
+.headerFill-TTyrtz { background-color: rgba(0,0,0,0.25) !important; }
+.inner-1_1f7b .root-2sNHUF .body-3_tdh6 .scrollerWrap-2uBjct .scroller-fzNley { background-color: rgba(0,0,0,0.15) !important; }
+.topSectionNormal-2LlRG1 .tabBarContainer-3RVZc- { background-color: rgba(0,0,0,0.25) !important; }
+
+
+.tab-bar.TOP { border-bottom: 0px solid !important; }
+
+
+.scrollbarGhostHairline-D_btXm { color: var(--couleur-blanc) !important; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.notice-streamer-mode { background-color: rgba(0,0,0,0.55) !important; }
+.notice-streamer-mode  .btn { border: 0px solid; background-color: var(--couleur-rouge) !important; border-radius: 5px !important;}
+.notice-streamer-mode  .btn:hover  {animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite;  border-radius: 5px !important; border-radius: 5px !important;}
+
+
+
+
+
+
+
+
+
+.mention-RlZ5F3 {animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite}
+
+
+.inner-1_1f7b .modal-3HOjGZ .alignStretch-1hwxMa .buttonRedFilledDefault-1TrZ9q + .buttonPrimaryLinkDefault-1PQflF { background-color: var(--couleur-theme) !important; }
+.inner-1_1f7b .modal-3HOjGZ .alignStretch-1hwxMa .buttonRedFilledDefault-1TrZ9q + .buttonPrimaryLinkDefault-1PQflF:hover {animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite}
+
+.context-menu .item.danger:hover   {animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite;  border-radius: 5px !important;}
+.context-menu .item.danger {
+    background: var(--couleur-rouge)!important;
+    border-radius: 5px !important;
+}
+
+.context-menu .item.disabled,
+.context-menu .item.disabled:hover {
+    opacity: 0.2;
+    cursor: not-allowed !important;
+}
+
+
+
+
+
 .upload-drop-modal.error {
     border-radius: 0;
     background: var(--couleur-theme-0-5);
