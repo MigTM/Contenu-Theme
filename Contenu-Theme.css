@@ -1,7 +1,15 @@
 
 /* contenu popout membre */
+.userPopout-4pfA0d { background-color: var(--couleur-theme) !important }
 
-.userPopout-4pfA0d .headerPlaying-2eYqm9,.userPopout-4pfA0d  .body-3rkFrF, .userPopout-4pfA0d .footer-2J5zqP, .userPopout-4pfA0d .headerNormal-1cioxU{ background: var(--couleur-theme) !important; }
+
+
+
+.userPopout-4pfA0d .headerPlaying-2eYqm9{ background: rgba(0,0,0,0.4) !important; }
+
+ .userPopout-4pfA0d .footer-2J5zqP{ background: rgba(0,0,0,0.2) !important; }
+  .userPopout-4pfA0d .headerNormal-1cioxU{ background: rgba(0,0,0,0.4) !important; }
+.no-shadow  .body-3rkFrF { background-color: rgba(0,0,0,0.3) !important; }
 
 .buttonBrandInverted-VFL7Yc:hover {animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity: 1 !important }
 .buttonBrandInverted-VFL7Yc { border: 0px solid !important; background-color: var(--couleur-theme) !important; color: var(--couleur-blanc)!important; }
