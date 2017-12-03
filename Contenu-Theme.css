@@ -79,10 +79,10 @@
 .topSectionPlaying-3jAH9b, .body-3_tdh6, .topSectionNormal-2LlRG1 { background: transparent !important; }
 
 .header-2Lg0Oe, .tabBarContainer-3RVZc- { border-bottom: 1px solid rgba(32,34,37,.3)  !important; }
-.header-2Lg0Oe { background-color: rgba(0,0,0,0.35) !important; }
-.headerFill-TTyrtz { background-color: rgba(0,0,0,0.25) !important; }
-.inner-1_1f7b .root-2sNHUF .body-3_tdh6 .scrollerWrap-2uBjct .scroller-fzNley { background-color: rgba(0,0,0,0.15) !important; }
-.topSectionNormal-2LlRG1 .tabBarContainer-3RVZc- { background-color: rgba(0,0,0,0.25) !important; }
+.header-2Lg0Oe { background-color: rgba(0,0,0,0.65) !important; }
+.headerFill-TTyrtz { background-color: rgba(0,0,0,0.55) !important; }
+.inner-1_1f7b .root-2sNHUF .body-3_tdh6 .scrollerWrap-2uBjct .scroller-fzNley { background-color: rgba(0,0,0,0.45) !important; }
+.topSectionNormal-2LlRG1 .tabBarContainer-3RVZc- { background-color: rgba(0,0,0,0.55) !important; }
 
 
 .tab-bar.TOP { border-bottom: 0px solid !important; }
