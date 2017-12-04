@@ -1,3 +1,92 @@
+/* glisser deposer */
+
+.upload-drop-modal.error {
+    border-radius: 0;
+    background: var(--couleur-theme-0-5);
+    border: 1px solid var(--couleur-theme);
+    max-width: 600px;
+    width: 600px;
+    padding: 30px;
+}
+.upload-drop-modal .bgScale {
+    background: var(--couleur-theme-0-5)!important;
+    border: 1px solid var(--couleur-theme)!important;
+    border-radius: 0;
+}
+.upload-drop-modal .inner .title {
+    font-weight: 400!important;
+    text-transform: none!important;
+    font-size: 24px!important;
+    line-height: 30px!important;
+    padding-bottom: 5px;
+}
+
+.upload-drop-modal {
+    border-radius: 0;
+}
+
+.upload-drop-modal .inner {
+    border: 3px dashed var(--couleur-theme)!important;
+    background: none!important;
+    border-radius: 0;
+}
+
+.overridePlaceholder-1S5xQW {
+    border: 3px dashed var(--couleur-theme)!important;
+    margin-top: 10px;
+}
+.upload-drop-modal .inner .instructions {
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 4px;
+}
+
+.upload-drop-modal.error .inner {
+    border-radius: 0;
+}
+
+.upload-drop-modal.error .inner .title {
+    margin: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+    margin: 20px 0;
+    text-transform: none;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.upload-drop-modal.error a {
+    border-radius: 0px;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+    transition: background-color 0.2s;
+}
+
+.upload-drop-modal.error a:hover,
+.upload-drop-modal.error a:active {
+    transition: background-color 0.2s;
+}
+
+.upload-drop-modal .inner .icon.one, .upload-drop-modal .inner .icon.three  {
+    display: none;
+}
+
+.upload-drop-modal .inner .icons .icon.two {
+    background-image: url('https://puu.sh/yvozL/3fc38c1f73.png')!important;
+}
+
+
+
+
+
+
+
+
+
 [class*="buttonDisconnect"]::after { background-image:url(https://rawgit.com/MigTM/Contenu-Theme/master/deconnexion-appel-serveur.svg)!important;}
 
 [class*="buttonInfo"] { background-image:url(https://rawgit.com/MigTM/Contenu-Theme/master/information-connexion.svg)!important; }
