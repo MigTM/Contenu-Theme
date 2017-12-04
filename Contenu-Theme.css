@@ -1,3 +1,11 @@
+[class*="buttonDisconnect"]::after { background-image:url(https://rawgit.com/MigTM/Contenu-Theme/master/deconnexion-appel-serveur.svg)!important;}
+
+[class*="buttonInfo"] { background-image:url(https://rawgit.com/MigTM/Contenu-Theme/master/information-connexion.svg)!important; }
+
+
+#clockPluginClock{position:absolute!important;bottom:3px!important;left:0!important;background:rgba(0,0,0,.3)!important;color:#bbb!important;border-radius:10px!important}@-webkit-keyframes wiggle{from{-webkit-transform:rotate(-7deg);transform:rotate(-7deg)}to{-webkit-transform:rotate(7deg);transform:rotate(7deg)}}@keyframes wiggle{from{-webkit-transform:rotate(-7deg);transform:rotate(-7deg)}to{-webkit-transform:rotate(7deg);transform:rotate(7deg)}}@-webkit-keyframes wiggle-active{from{-webkit-transform:scale(.9) rotate(-7deg);transform:scale(.9) rotate(-7deg)}to{-webkit-transform:scale(.9) rotate(7deg);transform:scale(.9) rotate(7deg)}}@keyframes wiggle-active{from{-webkit-transform:scale(.9) rotate(-7deg);transform:scale(.9) rotate(-7deg)}to{-webkit-transform:scale(.9) rotate(7deg);transform:scale(.9) rotate(7deg)}}@-webkit-keyframes pulsate{from{-webkit-transform:scale(1);transform:scale(1)}to{-webkit-transform:scale(.9);transform:scale(.9)}}@keyframes pulsate{from{-webkit-transform:scale(1);transform:scale(1)}to{-webkit-transform:scale(.9);transform:scale(.9)}}@-webkit-keyframes pulsate-active{from{-webkit-transform:scale(.9);transform:scale(.9)}to{-webkit-transform:scale(.8);transform:scale(.8)}}@keyframes pulsate-active{from{-webkit-transform:scale(.9);transform:scale(.9)}to{-webkit-transform:scale(.8);transform:scale(.8)}}@-webkit-keyframes pulsate-active{from{-webkit-transform:scale(.9);transform:scale(.9)}to{-webkit-transform:scale(.8);transform:scale(.8)}}@-webkit-keyframes opacity-fade{50%{opacity:.7}100%{opacity:0}}@keyframes opacity-fade{50%{opacity:.7}100%{opacity:0}}@-webkit-keyframes opacity-fade-reverse{50%{opacity:0}100%{opacity:.7}}@keyframes opacity-fade-reverse{50%{opacity:0}100%{opacity:.7}}
+
+
 
 /* contenu popout membre */
 .userPopout-4pfA0d { background-color: var(--couleur-theme) !important }
@@ -71,10 +79,10 @@
 .topSectionPlaying-3jAH9b, .body-3_tdh6, .topSectionNormal-2LlRG1 { background: transparent !important; }
 
 .header-2Lg0Oe, .tabBarContainer-3RVZc- { border-bottom: 1px solid rgba(32,34,37,.3)  !important; }
-.header-2Lg0Oe { background-color: rgba(0,0,0,0.35) !important; }
-.headerFill-TTyrtz { background-color: rgba(0,0,0,0.25) !important; }
-.inner-1_1f7b .root-2sNHUF .body-3_tdh6 .scrollerWrap-2uBjct .scroller-fzNley { background-color: rgba(0,0,0,0.15) !important; }
-.topSectionNormal-2LlRG1 .tabBarContainer-3RVZc- { background-color: rgba(0,0,0,0.25) !important; }
+.header-2Lg0Oe { background-color: rgba(0,0,0,0.65) !important; }
+.headerFill-TTyrtz { background-color: rgba(0,0,0,0.55) !important; }
+.inner-1_1f7b .root-2sNHUF .body-3_tdh6 .scrollerWrap-2uBjct .scroller-fzNley { background-color: rgba(0,0,0,0.45) !important; }
+.topSectionNormal-2LlRG1 .tabBarContainer-3RVZc- { background-color: rgba(0,0,0,0.55) !important; }
 
 
 .tab-bar.TOP { border-bottom: 0px solid !important; }
