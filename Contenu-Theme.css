@@ -1,3 +1,44 @@
+.popout.popout-top-left header:before, .popout.popout-top-right header:before, .popout.popout-top header:before,
+.popout.popout-bottom-left header:before, .popout.popout-bottom-right header:before, .popout.popout-bottom header:before {
+    display: none;
+}
+.popout section:after, .popout section:before {
+    display: none;
+}
+#autocomplete-popout input[type=text] {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+#autocomplete-popout header { height: 30px !important; background: rgba(0,0,0,0.3) !important; }
+#autocomplete-popout { background: var(--couleur-theme)  !important; border-radius: 3px !important;  }
+#autocomplete-popout section { background: rgba(0,0,0,0.4) !important; }
+#autocomplete-popout .empty:hover { background: rgba(0,0,0,0) !important; }
+.bd-blue #autocomplete-popout .empty h4 { color: var(--couleur-theme) !important; }
+
+.streamer-mode-enabled { margin-right: 50px !important; }
+
+@media all and (min-width: 1000px) and (max-width: 3000px)
+{
+ .streamer-mode-enabled { margin-right: 220px !important; }   
+}
+
+.region-select-modal { background: var(--couleur-theme-0-5); }
+ .region-select-modal .region-select-modal-option { background: var(--couleur-theme-0-5); border: 2px solid var(--couleur-theme-0-5);}
+ .region-select-modal .region-select-modal-option:hover {border: 2px solid var(--couleur-theme-0-5) !important;animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity: 1 !important }
+ .bd-blue .region-select-modal .region-select-modal-header { color: var(--couleur-theme) !important; }
+.buttonWhiteOutlined-2KwPTg { background-color: var(--couleur-theme) !important; border: 0px !important; }
+.buttonWhiteOutlined-2KwPTg:hover {animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity: 1 !important }
+.flexChild-1KGW5q .ui-form-item .hover .contentsDefault-nt2Ym5 { color: var(--couleur-theme) !important; }
+
+
+
+[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(2)::after { background-image: url(https://rawgit.com/MigTM/Contenu-Theme/master/Vue-Ensemble.svg) !important; }
+[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(3)::after { background-image: url(https://rawgit.com/MigTM/Contenu-Theme/master/Texte-Et-Images.svg) !important; }
+[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(7)::after { background-image: url(https://rawgit.com/MigTM/Contenu-Theme/master/Emotes.svg) !important; }
+[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(12)::after { background-image: url(https://rawgit.com/MigTM/Contenu-Theme/master/Liste-des-membres.svg) !important; }
+[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(13)::after { background-image: url(https://rawgit.com/MigTM/Contenu-Theme/master/Inviter.svg) !important; }
+[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(14)::after { background-image: url(https://rawgit.com/MigTM/Contenu-Theme/master/Bannissements.svg) !important; }
+
 /* glisser deposer */
 
 .upload-drop-modal.error {
