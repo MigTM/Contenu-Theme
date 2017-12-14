@@ -118,3 +118,30 @@
 .theme-dark .user-settings-voice .preview-overlay { background-color: rgba(0,0,0,0.4) !important; border-color: rgba(0,0,0,0.3) !important;}
 
 .not-detected { background-color: var(--couleur-theme) !important; }
+
+/* barre avec le speudo de la personne dans les messages privés */
+
+.noWrap-v6g9vO  .private .titleWrapper-3Vi_wz  {
+    background-color: rgba(0,0,0,0.0) !important;
+}
+
+.noWrap-v6g9vO  .private .titleWrapper-3Vi_wz .title-qAcLxz {
+    background-color: rgba(0,0,0,0.54) !important;
+}
+.noWrap-v6g9vO  .private .titleWrapper-3Vi_wz .titleCall-3X0yGQ {
+    background-color: rgba(0,0,0,0.0) !important;
+}
+.chat .private-channel-call{
+    background:rgba(0,0,0,0.55)!important;
+}
+/* barre du haut dans les messages privés */
+
+.headerBar-cxbhPD { 
+    background-color: rgba(0,0,0,0.53) !important; 
+}
+
+/* liste amis */
+
+.friends-table { 
+    background-color: rgba(0,0,0,0.45) !important; 
+}

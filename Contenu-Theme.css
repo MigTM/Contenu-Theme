@@ -1,3 +1,46 @@
+.chat>.content .messages .message-group .mentioned .markup .mention:hover { color: var(--couleur-blanc) !important; }
+
+.popout.popout-top-left header:before, .popout.popout-top-right header:before, .popout.popout-top header:before,
+.popout.popout-bottom-left header:before, .popout.popout-bottom-right header:before, .popout.popout-bottom header:before {
+    display: none;
+}
+.popout section:after, .popout section:before {
+    display: none;
+}
+#autocomplete-popout input[type=text] {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+#autocomplete-popout header { height: 30px !important; background: rgba(0,0,0,0.3) !important; }
+#autocomplete-popout { background: var(--couleur-theme)  !important; border-radius: 3px !important;  }
+#autocomplete-popout section { background: rgba(0,0,0,0.4) !important; }
+#autocomplete-popout .empty:hover { background: rgba(0,0,0,0) !important; }
+.bd-blue #autocomplete-popout .empty h4 { color: var(--couleur-theme) !important; }
+
+.streamer-mode-enabled { margin-right: 50px !important; }
+
+@media all and (min-width: 1000px) and (max-width: 3000px)
+{
+ .streamer-mode-enabled { margin-right: 220px !important; }   
+}
+
+.region-select-modal { background: var(--couleur-theme-0-5); }
+ .region-select-modal .region-select-modal-option { background: var(--couleur-theme-0-5); border: 2px solid var(--couleur-theme-0-5);}
+ .region-select-modal .region-select-modal-option:hover {border: 2px solid var(--couleur-theme-0-5) !important;animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity: 1 !important }
+ .bd-blue .region-select-modal .region-select-modal-header { color: var(--couleur-theme) !important; }
+.buttonWhiteOutlined-2KwPTg { background-color: var(--couleur-theme) !important; border: 0px !important; }
+.buttonWhiteOutlined-2KwPTg:hover {animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity: 1 !important }
+.flexChild-1KGW5q .ui-form-item .hover .contentsDefault-nt2Ym5 { color: var(--couleur-theme) !important; }
+
+
+
+[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(2)::after { background-image: url(https://rawgit.com/MigTM/Contenu-Theme/master/Vue-Ensemble.svg) !important; }
+[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(3)::after { background-image: url(https://rawgit.com/MigTM/Contenu-Theme/master/Texte-Et-Images.svg) !important; }
+[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(7)::after { background-image: url(https://rawgit.com/MigTM/Contenu-Theme/master/Emotes.svg) !important; }
+[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(12)::after { background-image: url(https://rawgit.com/MigTM/Contenu-Theme/master/Liste-des-membres.svg) !important; }
+[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(13)::after { background-image: url(https://rawgit.com/MigTM/Contenu-Theme/master/Inviter.svg) !important; }
+[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(14)::after { background-image: url(https://rawgit.com/MigTM/Contenu-Theme/master/Bannissements.svg) !important; }
+
 /* glisser deposer */
 
 .upload-drop-modal.error {
@@ -109,10 +152,12 @@
  .userPopout-4pfA0d .footer-2J5zqP{ background: rgba(0,0,0,0.2) !important; }
   .userPopout-4pfA0d .headerNormal-1cioxU{ background: rgba(0,0,0,0.4) !important; }
 .no-shadow  .body-3rkFrF { background-color: rgba(0,0,0,0.3) !important; }
+.theme-dark .body-3rkFrF{ background-color: rgba(0,0,0,0.3) !important; }
+.theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-header-background { display: none !important; }
 
 .buttonBrandInverted-VFL7Yc:hover {animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity: 1 !important }
 .buttonBrandInverted-VFL7Yc { border: 0px solid !important; background-color: var(--couleur-theme) !important; color: var(--couleur-blanc)!important; }
-
+.theme-dark #autocomplete-popout .row.selected { background:linear-gradient(90deg,rgba(0, 0, 0, 0),rgba(0,0,0,0))  }
 
 .theme-dark .no-shadow .userPopout-4pfA0d .body-3rkFrF .note   textarea{ color: var(--couleur-blanc)!important; text-align: center !important;}
 
@@ -537,18 +582,7 @@ textarea{background:transparent!important}
 body::after{z-index:-9999}body::after,.callout-backdrop::after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-size:cover;background-position:center;-webkit-filter:brightness(var(--background-brightness)) blur(var(--background-blur));filter:brightness(var(--background-brightness)) blur(var(--background-blur))}.callout-backdrop::after{background-image:inherit}.callout-backdrop{background-color:transparent!important;-webkit-transition:.3s all ease;-o-transition:.3s all ease;-moz-transition:.3s all ease;transition:.3s all ease}.app,body::after{-webkit-animation:cv-fade 2s ease-out;animation:cv-fade 2s ease-out}@-webkit-keyframes cv-fade{0%{opacity:0;-webkit-filter:blur(10px);filter:blur(10px)}70%{-webkit-filter:blur(0px);filter:blur(0px)}100%{opacity:1}}@keyframes cv-fade{0%{opacity:0;-webkit-filter:blur(10px);filter:blur(10px)}70%{-webkit-filter:blur(0px);filter:blur(0px)}100%{opacity:1}}
 
 
-/* barre avec le speudo de la personne dans les messages privés */
 
-.noWrap-v6g9vO  .private .titleWrapper-3Vi_wz  {
-    background-color: rgba(0,0,0,0.0) !important;
-}
-
-.noWrap-v6g9vO  .private .titleWrapper-3Vi_wz .title-qAcLxz {
-    background-color: rgba(0,0,0,0.54) !important;
-}
-.noWrap-v6g9vO  .private .titleWrapper-3Vi_wz .titleCall-3X0yGQ {
-    background-color: rgba(0,0,0,0.0) !important;
-}
 
 /* appel video */
 
@@ -560,9 +594,6 @@ body::after{z-index:-9999}body::after,.callout-backdrop::after{content:"";positi
 .private-channel-call-info { background-color: rgba(0,0,0,0.0)!important; }
 .chat .private-channel-call .status,.ui-call-avatar.voice .ui-call-avatar-status{background-color:var(--main-color);border:none;margin:4px;-webkit-box-shadow:0 0 5px rgba(0,0,0,0.5);box-shadow:0 0 5px rgba(0,0,0,0.5)}
 .ui-video{background:transparent!important; background-color: rgba(0,0,0.9) !important;}.ui-quick-select-popout{background:rgba(0,0,0,0.75)!important}
-.chat .private-channel-call{
-    background:rgba(0,0,0,0.55)!important;
-}
 .icons-wrapper {     background:rgba(0,0,0,.3)!important;
     border-color:transparent!important;
     border-radius:5px }
@@ -1084,7 +1115,19 @@ section [class*="scrollerThemed-"] [class*="scroller-"]::-webkit-scrollbar-track
 
 /* barre dans le menu paramètres */
 
-.ui-standard-sidebar-view .sidebar-region [class*="scroller-"]{margin:30px 0;-webkit-mask-image:-webkit-linear-gradient(top,transparent 0%,rgba(0,0,0,1) 5%,rgba(0,0,0,1) 95%,transparent 100%)}.ui-standard-sidebar-view .sidebar-region [class*="scroller-"]::-webkit-scrollbar{display:none}.ui-standard-sidebar-view .sidebar-region .sidebar{height:100%;padding:0 6px 0 20px}.ui-standard-sidebar-view .sidebar-region [class*="side-"]{padding:30px 0}.tab-bar.SIDE .tab-bar-item,.ui-tab-bar.SIDE .ui-tab-bar-item,.ui-standard-sidebar-view .ui-tab-bar.SIDE .ui-tab-bar-item::after{-webkit-transition:color .3s ease-in-out,opacity .3s ease-in-out;transition:color .3s ease-in-out,opacity .3s ease-in-out}.ui-standard-sidebar-view .sidebar-region-scroller [class*="item"]{padding:8px 0 8px 20px;margin:0;cursor:pointer!important}.ui-tab-bar.SIDE .ui-tab-bar-item{color:hsla(0,0%,100%,.7)}.ui-tab-bar.SIDE .ui-tab-bar-item.selected,.ui-tab-bar.SIDE .ui-tab-bar-item:active{background:var(--main-color);color:#fff}.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:hover,#bd-settings-sidebar .ui-tab-bar-item:hover{color:hsla(0,0%,100%,.7)!important}.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"][class*="selected-"],#bd-settings-sidebar .ui-tab-bar-item.selected{background-color:var(--main-color);color:#fff!important}.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"],#bd-settings-sidebar .ui-tab-bar-item{padding-left:50px}[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar [class*="item"][class*="Brand"]:not([class*="selected-"]):hover{background-color:var(--hover-color)}[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar [class*="itemDanger"]:hover{background-color:#a93d3d}.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]::after,#bd-settings-sidebar .ui-tab-bar-item::after{content:"";position:absolute;width:24px;height:24px;left:15px;margin-top:-2px;opacity:.3;-webkit-transition:all .15s ease-in-out;transition:all .15s ease-in-out}.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:hover::after{opacity:.7}.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"][class*="selected-"]::after,#bd-settings-sidebar .ui-tab-bar-item.selected::after{opacity:1}[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(2)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Compte.svg)}[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(3)::after,[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(9)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Sécurité.svg)}[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(4)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Applications.svg)}[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(5)::after,[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(6)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Connexions.svg)}[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"][class*="Brand"]::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Discord-Nitro.svg)}[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(10)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Voix-Et-Video.svg)}.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(11)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Overlay.svg)}.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(12)::after,.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(11)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Notifications.svg)}.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(13)::after,.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(12)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/raccourcis.svg)}.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(14)::after,.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(13)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Jeux.svg)}.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(15)::after,.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(14)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Texte-Et-Images.svg)}.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(16)::after,.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(15)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Apparance.svg)}.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(17)::after,.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(16)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Mode-Streamer.svg)}.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(18)::after,.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(17)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Language.svg)}.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(21)::after,.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(20)::after,[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(4)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Note-de-mise-a-jour.svg)}[layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="itemDanger"]::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/D%C3%A9connexion.svg)}.platform-win [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(16)::after,.platform-osx [layer-id="user-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(15)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Apparence.svg)}
+.ui-standard-sidebar-view .sidebar-region [class*="scroller-"]{margin:30px 0;-webkit-mask-image:-webkit-linear-gradient(top,transparent 0%,rgba(0,0,0,1) 5%,rgba(0,0,0,1) 95%,transparent 100%)}.ui-standard-sidebar-view .sidebar-region [class*="scroller-"]::-webkit-scrollbar{display:none}.ui-standard-sidebar-view .sidebar-region .sidebar{height:100%;padding:0 6px 0 20px}.ui-standard-sidebar-view .sidebar-region [class*="side-"]{padding:30px 0}.tab-bar.SIDE .tab-bar-item,.ui-tab-bar.SIDE .ui-tab-bar-item,.ui-standard-sidebar-view .ui-tab-bar.SIDE .ui-tab-bar-item::after{-webkit-transition:color .3s ease-in-out,opacity .3s ease-in-out;transition:color .3s ease-in-out,opacity .3s ease-in-out}.ui-standard-sidebar-view .sidebar-region-scroller [class*="item"]{padding:8px 0 8px 20px;margin:0;cursor:pointer!important}.ui-tab-bar.SIDE .ui-tab-bar-item{color:hsla(0,0%,100%,.7)}.ui-tab-bar.SIDE .ui-tab-bar-item.selected,.ui-tab-bar.SIDE .ui-tab-bar-item:active{background:var(--main-color);color:#fff}.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:hover,#bd-settings-sidebar .ui-tab-bar-item:hover{color:hsla(0,0%,100%,.7)!important}.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"][class*="selected-"],#bd-settings-sidebar .ui-tab-bar-item.selected{background-color:var(--main-color);color:#fff!important}.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"],#bd-settings-sidebar .ui-tab-bar-item{padding-left:50px} .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar [class*="item"][class*="Brand"]:not([class*="selected-"]):hover{background-color:var(--hover-color)} .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar [class*="itemDanger"]:hover{background-color:#a93d3d}.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]::after,#bd-settings-sidebar .ui-tab-bar-item::after{content:"";position:absolute;width:24px;height:24px;left:15px;margin-top:-2px;opacity:.3;-webkit-transition:all .15s ease-in-out;transition:all .15s ease-in-out}.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:hover::after{opacity:.7}.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"][class*="selected-"]::after,#bd-settings-sidebar .ui-tab-bar-item.selected::after{opacity:1} .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(2)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Compte.svg)} .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(3)::after,[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(9)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Sécurité.svg)} .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(4)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Applications.svg)} .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(5)::after,[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(6)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Connexions.svg)}
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(7)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Discord-Nitro.svg)}
+
+
+ .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(10)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Voix-Et-Video.svg)}.platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(11)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Overlay.svg)}.platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(12)::after,.platform-osx  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(11)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Notifications.svg)}.platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(13)::after,.platform-osx  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(12)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/raccourcis.svg)}.platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(14)::after,.platform-osx  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(13)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Jeux.svg)}.platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(15)::after,.platform-osx  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(14)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Texte-Et-Images.svg)}.platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(16)::after,.platform-osx  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(15)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Apparance.svg)}.platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(17)::after,.platform-osx  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(16)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Mode-Streamer.svg)}.platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(18)::after,.platform-osx  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(17)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Language.svg)}.platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(21)::after,.platform-osx  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(20)::after,[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(4)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Note-de-mise-a-jour.svg)} 
+
+  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(21)::after, .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(20)::after,  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(4)::after { background:  url(https://rawgit.com/MigTM/Contenu-Theme/master/Note-de-mise-a-jour.svg) }
+
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(24)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/D%C3%A9connexion.svg)}
+
+
+.platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(16)::after,.platform-osx  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(15)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Apparence.svg)}
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(19)::after{background:url(https://puu.sh/yFxQD/dc8fd5904a.png)}
 /* icone modification channel */
 
  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(2)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Vue-Ensemble.svg)}
@@ -1281,18 +1324,6 @@ section [class*="scrollerThemed-"] [class*="scroller-"]::-webkit-scrollbar-track
 .user-settings-security .buttonRedOutlined-2t9fm_ {background-color: var(--couleur-rouge) !important; }
 .user-settings-security .buttonRedOutlined-2t9fm_:hover {animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite}
 
-
-/* barre du haut dans les messages privés */
-
-.headerBar-cxbhPD { 
-    background-color: rgba(0,0,0,0.53) !important; 
-}
-
-/* liste amis */
-
-.friends-table { 
-    background-color: rgba(0,0,0,0.45) !important; 
-}
 
 
 
@@ -2114,10 +2145,11 @@ animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity
     animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite
 }
 
-.item-3879bf:nth-of-type(22):hover  {
+.item-3879bf:nth-of-type(23):hover  {
     color:var(--couleur-blanc)!important;
     animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite
 }
+.item-3879bf:nth-of-type(23):hover:nth-child(24)::after { transform: rotateY(180deg) !important; -webkit-transition:all .1s ease-in-out,transform .3s ease-in-out;transition:all .1s ease-in-out,transform .3s ease-in-out }
 
 .itemDefaultSelected-1UAWLe{ 
     color:var(--couleur-blanc)!important;
