@@ -1,3 +1,5 @@
+.theme-dark .layer-kosS71, .theme-dark .layers-20RVFW { background: transparent !important; }
+
 /* transparence popout... */
 
 .popout-menu, .emoji-picker, .messages-popout-wrap, .messages-popout-wrap .header, .messages-popout-wrap .footer, .messages-popout .message-group, .action-buttons, .jump-button, .context-menu, .private-channel-recipients-invite,.private-channel-recipients-invite .header,.private-channel-recipients-invite .scrollerWrap-2uBjct,.private-channel-recipients-invite .friend, .private-channel-recipients-invite .friend:hover{ background-color: rgba(0,0,0,0.5) !important; }
@@ -72,6 +74,8 @@
 .content .flex-spacer {
     background-color: rgba(0, 0, 0, 0.45) !important;
 }
+/* barre quand quelqu'un écrit */
+.typing-3eiiL_ { background: transparent !important;  }
 
 /* barre du haut */
 
