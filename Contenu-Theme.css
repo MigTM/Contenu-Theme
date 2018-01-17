@@ -941,7 +941,7 @@ div .actionIcon-2JXNvo{opacity:.3}
 
 /* icone/logo BD paramètres */
 
-#bd-settings-sidebar .ui-tab-bar-item:nth-child(3)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Core.svg)}#bd-settings-sidebar .ui-tab-bar-item:nth-child(4)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Emotes.svg)}#bd-settings-sidebar .ui-tab-bar-item:nth-child(5)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Custom-css.svg)}#bd-settings-sidebar .ui-tab-bar-item:nth-child(6)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Plugins.svg)}#bd-settings-sidebar .ui-tab-bar-item:nth-child(7)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Theme.svg)}
+#bd-settings-sidebar .ui-tab-bar-item:nth-child(3)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Core.svg)}#bd-settings-sidebar .ui-tab-bar-item:nth-child(5)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Emotes.svg)}#bd-settings-sidebar .ui-tab-bar-item:nth-child(6)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Custom-css.svg)}#bd-settings-sidebar .ui-tab-bar-item:nth-child(7)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Plugins.svg)}#bd-settings-sidebar .ui-tab-bar-item:nth-child(8)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Theme.svg)}
 
 
 
@@ -2108,11 +2108,15 @@ animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity
 }
 
 
+.item-rK1j5B:hover { background-color: rgba(0,0,0,0) ;animation:tab-MembreEtChannel 1.5s infinite,FColorMembreEtChannel 1.5s infinite }
 
+.item-rK1j5B.leave-2bjeRM { animation:tab-ExitServeur 1.5s infinite,FColorExitServeur 1.5s infinite }
+@-webkit-keyframes FColorExitServeur{0%,100%{background-color: rgba(240,0,6,0.5); border-radius: 5px 5px;}50%{background-color: rgba(240,0,6,0.5); border-radius: 5px 5px;}}@keyframes tab-ExitServeur{0%{box-shadow:0 0 0 0 rgba(240,0,6,0.5)}70%{box-shadow:0 0 10px 10px rgba(241,71,71,0)}to{box-shadow:0 0 0 0 rgba(241,71,71,0)}
 
-
-
-
+    .item-rK1j5B.invite-YM1l0n { color: #99aab5 !important ;}
+.item-rK1j5B.invite-YM1l0n .icon-3ICDZz { background-image: url(https://rawgit.com/MigTM/Contenu-Theme/master/Inviter.svg) ; height: 20px !important ; }
+    .theme-dark  .popout-bottom { height: 300px !important ;}
+    .theme-dark  .popout-bottom .menu-3BZuDT { height: 300px !important ;}
 
 
 
@@ -2395,7 +2399,9 @@ animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity
 
 
 
+.theme-dark .card-11ynQk:before { background-color: transparent !important; border-color: transparent !important; }
 
+.theme-dark .button-1qrA-N { background-color: black !important ; }
 
 
 
