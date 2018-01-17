@@ -1,5 +1,5 @@
 .chat>.content .messages .message-group .mentioned .markup .mention:hover { color: var(--couleur-blanc) !important; }
-
+/* contenu pour maj */
 
 .popout.popout-top-left header:before, .popout.popout-top-right header:before, .popout.popout-top header:before,
 .popout.popout-bottom-left header:before, .popout.popout-bottom-right header:before, .popout.popout-bottom header:before {
