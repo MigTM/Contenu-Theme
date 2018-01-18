@@ -1,3 +1,5 @@
+.theme-dark .layer-kosS71, .theme-dark .layers-20RVFW { background: transparent !important; }
+
 /* transparence popout... */
 
 .popout-menu, .emoji-picker, .messages-popout-wrap, .messages-popout-wrap .header, .messages-popout-wrap .footer, .messages-popout .message-group, .action-buttons, .jump-button, .context-menu, .private-channel-recipients-invite,.private-channel-recipients-invite .header,.private-channel-recipients-invite .scrollerWrap-2uBjct,.private-channel-recipients-invite .friend, .private-channel-recipients-invite .friend:hover{ background-color: rgba(0,0,0,0.5) !important; }
@@ -36,10 +38,15 @@
 
 /* CONTENU TRANSPARENCE DU THEME */
 
+/* menu popout serveur */
+
+.menu-3BZuDT { background: rgba(0,0,0,0.7) !important; }
+.separator-1hpa3S { border-bottom: 1px solid rgba(0,0,0,0.0) !important; }
+
 /* tout l'app */
 
 .container-2OU7Cz {
-    background-color: rgba(0, 0, 0, 0) !important;
+    background-color: rgba(0, 0, 0, 0.60) !important;
 } 
 .appMount-14L89u {
     background-color: rgba(0,0,0,0.0) !important;
@@ -72,6 +79,8 @@
 .content .flex-spacer {
     background-color: rgba(0, 0, 0, 0.45) !important;
 }
+/* barre quand quelqu'un écrit */
+.typing-3eiiL_ { background: transparent !important;  }
 
 /* barre du haut */
 
@@ -88,7 +97,7 @@
 /* paramètres */
 
 .ui-standard-sidebar-view { 
-    background-color: rgba(0,0,0,0.55) !important; 
+    background-color: rgba(0,0,0,0.8) !important; 
 }
 
 /* fond des recaps des mise a jour de discord */
