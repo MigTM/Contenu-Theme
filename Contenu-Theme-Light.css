@@ -1678,12 +1678,6 @@ section [class*="scrollerThemed-"] [class*="scroller-"]::-webkit-scrollbar-track
 
 /* effet des icones survoler dans la liste des serveurs */
 
-.guilds-wrapper .guild:hover, .friends-icon:hover, .guilds-wrapper .guild-inner:hover{ 
-    transform:rotateZ(360deg); 
-    -webkit-transition:all .9s ease-in-out,transform .9s ease-in-out;
-    transition:all .19s ease-in-out,transform .9s ease-in-out; 
-    color:var(--couleur-blanc)!important;
-}
 
 /* marge entre le premier serveur et le nmb d'amis en ligne */
 
