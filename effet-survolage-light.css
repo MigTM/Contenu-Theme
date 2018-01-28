@@ -1,0 +1,317 @@
+
+.region-select-modal .region-select-modal-option:hover {border: 2px solid var(--couleur-theme-0-5) !important;animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity: 1 !important }
+
+ .buttonWhiteOutlined-2KwPTg:hover {animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity: 1 !important }
+
+ .buttonBrandInverted-VFL7Yc:hover {animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity: 1 !important }
+
+ .notice-streamer-mode  .btn:hover  {animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite;  border-radius: 5px !important; border-radius: 5px !important;}
+
+
+
+.mention-RlZ5F3 {animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite}
+
+ .inner-1_1f7b .modal-3HOjGZ .alignStretch-1hwxMa .buttonRedFilledDefault-1TrZ9q + .buttonPrimaryLinkDefault-1PQflF:hover {animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite}
+
+ .contextMenu-uoJTbz .item.danger:hover   {animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite;  border-radius: 5px !important;}
+
+
+ .btn-item:hover {animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity: 0.5 !important; color: var(--couleur-blanc) !important;}
+
+ .mention:hover {animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity: 0.5 !important;}
+
+ .secondaryButton-16bxiT:hover { background-color: var(--couleur-rouge) !important;}
+
+ .buttonRedOutlined-2t9fm_:hover { background-color: var(--couleur-rouge) !important;}
+
+ .inner-1_1f7b .button:hover {    background-color: var(--couleur-rouge) !important; }
+
+ .inner-1_1f7b .button-primary:hover { background-color: var(--couleur-theme) !important;; opacity: 1 !important;}
+
+
+.instant-invite-modal  .form-actions .btn-default:hover {    background-color: var(--couleur-rouge) !important;}
+
+.ui-select>.Select .Select-option.is-focused, .ui-select>.Select .Select-option:hover,
+.Select .Select-option.is-focused, .Select .Select-option:hover {
+   animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity: 1 !important;
+    color: #fff!important;
+}
+
+.buttonBrandFilled-3Mv0Ra:hover { background-color: var(--couleur-theme) !important; } 
+@-webkit-keyframes FColorEnregistrer{0%,100%{background-color: var(--couleur-theme)}50%{background-color: var(--couleur-theme)}}
+    @keyframes tab-Enregistrer{0%{box-shadow:0 0 0 0 var(--couleur-theme)}70%{box-shadow:0 0 10px 10px rgba(0,0,0,0)}to{box-shadow:0 0 0 0 rgba(0,0,0,0)}
+}
+
+.buttonPrimaryLinkDefault-1PQflF:hover {  background-color: var(--couleur-rouge) !important;}
+
+
+
+.itemDefault-3NDwnY:hover {  animation:tab-drag 1.5s infinite,FColordrag 1.5s infinite}
+
+.buttonGreenFilledDefault-_lLQaz:hover {  animation:tab-drag 1.5s infinite,FColordrag 1.5s infinite}
+
+.autocomplete-popout .autocomplete-scroller .row:hover, .scrollerTrack-3hhmU0 .autocomplete-scroller .selected {  animation:tab-drag 1.5s infinite,FColordrag 1.5s infinite}
+
+.sidebar .side-2nYO0F .itemDanger-3m3dwx:hover {animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite}
+
+.footer-1PYmcw .buttonPrimaryLinkDefault-1PQflF:hover {animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity: 1 !important;}
+
+.user-settings-voice .ui-form-item  .buttonRedOutlined-2t9fm_:hover {animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite}
+
+.user-settings-security .buttonRedOutlined-2t9fm_:hover { background-color: var(--couleur-rouge) !important;}
+
+
+.edit-message .selectorSelected-2M0IGv {
+animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite; opacity: 0.5 !important;
+}
+
+.theme-dark .channel-members .member.popout-open { 
+    width: 219px; 
+    margin-left: 5px;  
+    color:var(--couleur-blanc)!important;
+    animation:tab-MembreEtChannel 1.5s infinite,FColorMembreEtChannel 1.5s infinite
+}
+
+.theme-dark .channel-members .member:hover  {
+    width: 219px; 
+    margin-left: 5px;  
+    color:var(--couleur-blanc)!important;
+    animation:tab-MembreEtChannel 1.5s infinite,FColorMembreEtChannel 1.5s infinite
+}
+
+
+.nameHovered-1YFSWq {
+    text-align: center; 
+    color:var(--couleur-blanc)!important;
+    background-color: var(--couleur-theme) !important; border-radius: 5px !important;}
+    @-webkit-keyframes FColorCateg{0%,100%{background-color:var(--couleur-theme); border-radius: 5px 5px;}50%{background-color:var(--couleur-theme); border-radius: 5px 5px;}}
+    @keyframes tab-Categ{0%{box-shadow:0 0 0 0 var(--couleur-theme)}70%{box-shadow:0 0 10px 10px rgba(241,71,71,0)}to{box-shadow:0 0 0 0 rgba(241,71,71,0)}
+}
+
+.draggable-3SphXU:hover {
+    color:var(--couleur-blanc)!important;
+    animation:tab-MembreEtChannel 1.5s infinite,FColorMembreEtChannel 1.5s infinite
+}
+
+.wrapper-fDmxzK:hover { 
+    left: 17px !important; 
+    color:var(--couleur-blanc)!important;
+    background-color: var(--couleur-theme) !important;
+    border-radius: 5px !important;
+}
+
+.icon-2WU8ha:hover {
+    color:var(--couleur-blanc)!important;
+    animation:tab-Icone 2.5s infinite,FColorIcone 2.5s infinite
+}
+
+.iconDefault-xzclSQ:hover, .iconTransition-VhWJ85:hover {
+    color:var(--couleur-blanc)!important;
+    animation:tab-Icone 2.5s infinite,FColorIcone 2.5s infinite
+}
+
+
+.iconSpacing-5GIHkT:hover {
+    color:var(--couleur-blanc)!important;
+    animation:tab-Icone 2.5s infinite,FColorIcone 2.5s infinite}
+    @-webkit-keyframes FColorIcone{10%{background-color: rgba(255,255,255,1); border-radius: 5px 5px;}90%{background-color: rgba(0,0,0,0); border-radius: 5px 5px;}}
+    @keyframes tab-Icone{0%{box-shadow:0 0 0 0 rgba(255,255,255,1)}95%{box-shadow:0 0 10px 10px rgba(0,0,0,0)}to{box-shadow:0 0 0 0 rgba(0,0,0,0)}
+}
+
+
+.attachButton-Di6YUh:hover {
+    color:var(--couleur-blanc)!important;
+    -webkit-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0);-webkit-animation:load8 2.8s infinite linear;animation:load8 2.8s infinite linear;
+    /* animation:tab-AjoutFichier 2.5s infinite,FColorAjoutFichier 2.5s infinite}
+    @-webkit-keyframes FColorAjoutFichier{10%{background-color: rgba(255,255,255,1); border-radius: 5px 5px;}90%{background-color: rgba(0,0,0,0); border-radius: 5px 5px;}}
+    @keyframes tab-AjoutFichier{0%{box-shadow:0 0 0 0 rgba(255,255,255,1)}95%{box-shadow:0 0 30px 30px rgba(0,0,0,0)}to{box-shadow:0 0 0 0 rgba(0,0,0,0)} */
+}
+
+.sprite-3pvJkd:hover {
+    color:var(--couleur-blanc)!important;
+    -webkit-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0);-webkit-animation:load8 2.8s infinite linear;animation:load8 2.8s infinite linear;
+    /* animation:tab-Emoji 2.5s infinite,FColorEmoji 2.5s infinite}
+    @-webkit-keyframes FColorEmoji{10%{background-color: rgba(255,204,77,1); border-radius: 5px 5px;}90%{background-color: rgba(0,0,0,0); border-radius: 5px 5px;}}
+    @keyframes tab-Emoji{0%{box-shadow:0 0 0 0 rgba(255,204,77,1)}95%{box-shadow:0 0 30px 30px rgba(0,0,0,0)}to{box-shadow:0 0 0 0 rgba(0,0,0,0)} */
+}
+
+.avatar-large:hover {
+    transform:rotateZ(360deg);
+    -webkit-transition:all .9s ease-in-out,transform .9s ease-in-out;
+    transition:all .19s ease-in-out,transform .9s ease-in-out; 
+    color:var(--couleur-blanc)!important;
+    animation:tab-Logo 2.5s infinite,FColorLogo 2.5s infinite
+}
+
+
+
+.guilds-wrapper .guilds .friends-icon:hover { background-color: var(--couleur-theme) !important; }
+
+
+
+.item-rK1j5B:hover { background-color: rgba(0,0,0,0) !important;  animation:tab-MembreEtChannel 1.5s infinite,FColorMembreEtChannel 1.5s infinite}
+
+.channel:hover { 
+    left: 10px; 
+    width: 210px; 
+    color:var(--couleur-blanc)!important;
+    background-color: var(--couleur-theme) !important; border-radius: 5px !important;}
+    @-webkit-keyframes FColorFondAmis{0%,100%{background-color: var(--couleur-theme); border-radius: 5px 5px;}50%{background-color: var(--couleur-theme); border-radius: 5px 5px;}}
+    @keyframes tab-FondAmis{0%{box-shadow:0 0 0 0 var(--couleur-theme)}70%{box-shadow:0 0 10px 10px rgba(0,0,0,0)}to{box-shadow:0 0 0 0 rgba(0,0,0,0)}
+}
+
+
+.toggle-button:hover, .medium-C4dspv:hover {
+    color:var(--couleur-blanc)!important;
+    animation:tab-AppelPrive 2s infinite,FColorAppelPrive 2s infinite}
+    @-webkit-keyframes FColorAppelPrive{10%{background-color: rgba(0,0,0,1); border-radius: 5px 5px;}55%{background-color: rgba(0,0,0,0); border-radius: 5px 5px;}}
+    @keyframes tab-AppelPrive{0%{box-shadow:0 0 0 0 rgba(0,0,0,1)}70%{box-shadow:0 0 30px 30px rgba(0,0,0,0)}to{box-shadow:0 0 0 0 rgba(0,0,0,0)}
+}
+
+.ui-video-background .smallGrow-2_7ZaC, .button-exit { 
+    color:var(--couleur-blanc)!important;
+    animation:tab-ExitAppel 1.5s infinite,FColorExitAppel 1.5s infinite}
+    @-webkit-keyframes FColorExitAppel{0%,100%{background-color: rgb(240,0,6)}50%{background-color: rgb(240,0,6)}
+}
+
+/* effet du bouton exit pour les appels privés */ 
+
+.ui-video-background .smallGrow-2_7ZaC:hover, .button-exit:hover { 
+    color:var(--couleur-blanc)!important;
+    animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite}
+    @-webkit-keyframes FColorBoutonExit{0%,100%{background-color: rgb(240,0,6)}50%{background-color: rgb(240,0,6)}}
+    @keyframes tab-BoutonExit{0%{box-shadow:0 0 0 0 var(--color-deco)}70%{box-shadow:0 0 10px 10px rgba(241,71,71,0)}to{box-shadow:0 0 0 0 rgba(241,71,71,0)}
+}
+
+/* effet bouton survoler ajouter amis... dans les messages privés */
+
+.UNIQUE .tab-bar-item:hover { 
+    color: black!important; 
+    animation:tab-AjoutAmis 1.5s infinite,FColorAjoutAmis 1.5s infinite}
+    @-webkit-keyframes FColorAjoutAmis{0%,100%{background:rgb(255,255,255);}50%{background:rgb(255,255,255)}}
+    @keyframes tab-AjoutAmis{0%{box-shadow:0 0 0 0 rgb(255,255,255)}70%{box-shadow:0 0 10px 10px rgba(241,71,71,0)}to{box-shadow:0 0 0 0 rgba(241,71,71,0)}
+}
+
+.UNIQUE .tab-bar-item-primary:hover{
+    color:var(--couleur-blanc)!important;
+    animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite}
+    @-webkit-keyframes FColorParaEtAjout{0%,100%{background:var(--hover-color)}50%{background:var(--main-color)}}
+    @keyframes tab-ParaEtAjout{0%{box-shadow:0 0 0 0 var(--main-color)}70%{box-shadow:0 0 10px 10px rgba(241,71,71,0)}to{box-shadow:0 0 0 0 rgba(241,71,71,0)}
+}
+
+
+
+/* effet bouton survoler démarrer appel... dans les messages privés */
+
+.friends-action:hover {
+    animation:tab-IconeDebutAppel 1.5s infinite}
+    @-webkit-keyframes tab-IconeDebutAppel{0%{box-shadow:0 0 0 0 var(--main-color)}70%{box-shadow:0 0 20px 20px rgba(241,71,71,0)}to{box-shadow:0 0 0 0 rgba(241,71,71,0)}
+}
+
+/* CONTENU POPOUT */
+
+/* effet des popout */
+
+
+
+/* effet de la liste des options dans les popout */ 
+
+.popout-menu-item:hover {
+    color:var(--couleur-blanc)!important;
+    animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite
+}
+
+/* effet du bouton quitter serveur dans la fenêtre popout */
+
+.leave:hover { 
+    color:var(--couleur-blanc)!important;
+    animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite
+}
+
+/* popout ajout emoji */
+
+.no-shadow { 
+    animation:tab-Popout 2.5s infinite,FColorPopout 2.5s infinite !important
+}
+
+
+/* CONTENU MENU PARAMETRE */
+
+/* couleur du fond des paramètres survoler */ 
+
+.item-3879bf:nth-of-type(2):hover,.item-3879bf:nth-of-type(3):hover,.item-3879bf:nth-of-type(4):hover,.item-3879bf:nth-of-type(5):hover,.item-3879bf:nth-of-type(7):hover,.item-3879bf:nth-of-type(10):hover,.item-3879bf:nth-of-type(11):hover,.item-3879bf:nth-of-type(12):hover,.item-3879bf:nth-of-type(13):hover,.item-3879bf:nth-of-type(14):hover,.item-3879bf:nth-of-type(15):hover,.item-3879bf:nth-of-type(16):hover,.item-3879bf:nth-of-type(17):hover,.item-3879bf:nth-of-type(18):hover,.item-3879bf:nth-of-type(20):hover{
+    color:var(--couleur-blanc)!important;
+    background-color: var(--couleur-theme) !important; border-radius: 5px !important; 
+}
+
+.item-3879bf:nth-of-type(23):hover  {
+    color:var(--couleur-blanc)!important;
+    background-color: var(--couleur-rouge) !important; border-radius: 5px !important; 
+}
+
+
+.itemDefaultSelected-1UAWLe{ 
+    color:var(--couleur-blanc)!important;
+    background-color: var(--couleur-theme) !important; border-radius: 5px !important; 
+}
+
+#bd-settings-sidebar .ui-tab-bar-item.selected{ 
+    color:var(--couleur-blanc)!important;
+    background-color: var(--couleur-theme) !important; border-radius: 5px !important; 
+}
+
+#bd-settings-sidebar:hover .ui-tab-bar-item:hover, #bd-settings-sidebar:hover .ui-tab-bar-item.selected:hover{
+    color:var(--couleur-blanc)!important;
+    background-color: var(--couleur-theme) !important; border-radius: 5px !important; 
+}
+
+
+/* effet bouton survoler custom CSS dans les paramètres */
+
+.btn:hover {
+    color:var(--couleur-blanc)!important;
+    animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite
+}
+
+
+ .buttonRedFilledDefault-1TrZ9q:hover {animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite !important}
+
+ .buttonPrimaryLinkDefault-1PQflF:hover {animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite}
+
+ .user-info-editing .buttonPrimaryLinkDefault-1PQflF:hover {animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite}
+
+
+
+.footer-1PYmcw .buttonPrimaryLinkDefault-1PQflF:hover{animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite}
+
+
+.card-3DrRmC:locked {
+    color:var(--couleur-blanc)!important;
+    animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite
+}
+
+.ui-select .Select-option.is-focused{
+    color:var(--couleur-blanc)!important;
+    animation:tab-ParaEtAjout 1.5s infinite,FColorParaEtAjout 1.5s infinite
+}
+
+.wrapperUnreadText-1MykVG  {
+    border-radius: 5px !important; 
+    color:var(--couleur-blanc)!important;
+    animation:tab-BoutonExit 1.5s infinite,FColorBoutonExit 1.5s infinite
+}
+
+
+.theme-dark .channel-members .member:hover  {
+    width: 219px; 
+    margin-left: 5px;  
+    color:var(--couleur-blanc)!important;
+    background-color: red !important;
+}
+
+
+.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover { background: -webkit-gradient(linear,left top,right top,color-stop(85%,var(--couleur-theme)),to(var(--couleur-theme))) ; border-radius: 5px !important; }
+
+
+.item-rK1j5B.leave-2bjeRM:hover { animation:tab-ExitServeur 1.5s infinite,FColorExitServeur 1.5s infinite }
+@-webkit-keyframes FColorExitServeur{0%,100%{background-color: rgba(240,0,6,0.5); border-radius: 5px 5px;}50%{background-color: rgba(240,0,6,0.5); border-radius: 5px 5px;}}@keyframes tab-ExitServeur{0%{box-shadow:0 0 0 0 rgba(240,0,6,0.5)}70%{box-shadow:0 0 10px 10px rgba(241,71,71,0)}to{box-shadow:0 0 0 0 rgba(241,71,71,0)}
