@@ -1603,10 +1603,10 @@ section [class*="scrollerThemed-"] [class*="scroller-"]::-webkit-scrollbar-track
     background-color: rgba(255,255,255,0);
 }
 .contentSelectedText-3j5CXt {
-    background-color: var(--couleur-theme-0-5);
+    background-color: transparent;
 }
 .wrapperSelectedText-31jJa8 {
-    background-color: var(--couleur-theme-0-5);
+    background-color: var(--couleur-theme-0-75);
     border-radius: 5px 5px;
 }
 
