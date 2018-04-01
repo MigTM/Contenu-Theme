@@ -1751,7 +1751,7 @@ section [class*="scrollerThemed-"] [class*="scroller-"]::-webkit-scrollbar-track
 /* couleur du texte dans les messages */
 
 .theme-dark .message-group .comment .markup {
-    color: var(--couleur-theme-0-5);
+    color: var(--couleur-theme);
 }
 
 /* contour speudo dans les channels dédier au messages */
