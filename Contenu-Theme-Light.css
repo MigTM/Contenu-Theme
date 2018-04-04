@@ -1,4 +1,3 @@
-
 /* CONTENU EFFET FIX */
 
 /* CONTENU COULEUR ECRITURE ALL */
@@ -1038,6 +1037,69 @@
 }
 .theme-dark .text-1rLRsh, .theme-dark .title-38OOBL {
 	color: var(--couleur-theme-0-25);
+}
+.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, .has-value.Select--single>.Select-control .Select-value .Select-value-label, .form-deprecated .Select-option, .form.deprecated .Select-option {
+    color: var(--couleur-blanc);
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-header header {
+    color: var(--couleur-blanc);
+}
+.form-deprecated .Select-option.is-focused, .form.deprecated .Select-option.is-focused {
+    color: var(--couleur-blanc);
+}
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn-default {
+    border-bottom: none;
+    color: white;
+    background-color: var(--couleur-rouge);
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn-default:hover { 
+    background-color: var(--couleur-rouge-0-75); 
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .blurb-ArHxCz, .form-deprecated .control-group label, .form.deprecated .control-group label, .form-deprecated .control-group .help-text, .form.deprecated .control-group .help-text, .wrapper-VSYYTS .instantInviteModal-5L33Qh .expireText-NeAc7v {
+color: var(--couleur-blanc-0-75);
+}
+.form-deprecated .btn-primary {
+    background-color: var(--couleur-theme);
+}
+.form-deprecated .btn-primary:hover {
+    background-color: var(--couleur-theme-0-75);
+}
+.is-open>.Select-control{
+    background:var(--couleur-gris-foncer-0-8);
+}
+.Select-menu-outer{
+    background-color: var(--couleur-gris-foncer-0-6) ;border-color:transparent;margin:0
+}
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece,.search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece,.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece{
+    border:3px solid transparent!important;background-color:rgba(0,0,0,0.3)!important}::-webkit-scrollbar{width:10px;height:10px}::-webkit-scrollbar-thumb{background-color:var(--main-color)!important;border-radius:10px}::-webkit-scrollbar-thumb:active{background-color:var(--hover-color)!important}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-corner{background:transparent
+}
+.form-inner .Select-option {
+    background-color: var(--couleur-gris-foncer) !important;
+}
+.form-inner .Select {
+    background-color: transparent !important;
+}
+.form-inner .Select-control {
+    background-color: var(--couleur-gris-foncer-0-8) !important;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .clipboardInputInner-dxVheg input {
+    background: transparent;
+    color: var(--main-color);
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_ {
+    background-color: var(--main-color);
+    border-left: none;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .clipboardInputInner-dxVheg input {
+    width: 0px;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_:hover {
+    background-color: var(--couleur-theme-0-75);
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox {
+    color: var(--couleur-blanc-0-75);
 }
 
 /* Couleur bouton couleur theme */
