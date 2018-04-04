@@ -4,8 +4,11 @@
 .activityText-258pdj, .private-channels .channel .channel-activity-text, .private-channels .channel .channel-activity {
 	color: var(--couleur-theme-0-75);
 }
-.nameMutedText-1YDcP-, .nameDefault-Lnjrwm, .channelName-1G03vu, .name-3gtcmp, .activity-1PAe08 strong, .nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa, .message-group .comment .markup, .private-channels .channel .channel-activity strong {
+.nameDefault-Lnjrwm, .channelName-1G03vu, .name-3gtcmp, .activity-1PAe08 strong, .nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa, .message-group .comment .markup, .private-channels .channel .channel-activity strong {
 	color: var(--couleur-theme) !important;
+}
+.nameMutedText-1YDcP- {
+    color: var(--couleur-theme-0-5) !important;
 }
 .private-channels .channel .channel-name {
 	color: var(--couleur-theme) !important;
