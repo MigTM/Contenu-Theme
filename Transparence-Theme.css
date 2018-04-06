@@ -4,6 +4,12 @@
 	background-color: transparent !important;
 }
 
+/* Transparence notif plugins mise a jour et notif mode streamer */
+
+.noticeInfo-3v29SJ, .noticeStreamerMode-1OlfKV {
+    background-color: rgba(0,0,0,0.65) !important;
+}
+
 /* Transparence liste serveur */
 
 .guilds-wrapper {
@@ -34,6 +40,9 @@
 .theme-dark .chat>.content {
 	background-color: rgba(0,0,0,0.5) !important;
 }
+.theme-dark .members-1bid1J {
+    background-color: rgba(0,0,0,0.1) !important;
+}
 /* Transparence nom channel */
 .theme-dark .title-qAcLxz {
 	background-color: rgba(0,0,0,0.6) !important;
@@ -43,8 +52,8 @@
 	background-color: transparent !important;
 }
 /* Transparence liste membre */
-.theme-dark .channel-members {
-	background-color: rgba(0,0,0,0.1) !important;
+.theme-dark .members-1bid1J {
+    background-color: rgba(0,0,0,0.1) !important;
 }
 
 /* Transparence liste amis */
