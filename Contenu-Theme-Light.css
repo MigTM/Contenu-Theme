@@ -34,7 +34,14 @@
 	background-image:url(https://rawgit.com/MigTM/Contenu-Theme/master/Boutton-Parametre.svg)!important
 }
 .container-iksrDt .button-1aU9q1:hover svg{
-	-webkit-animation:load8 2.8s infinite linear;animation:load8 2.8s infinite linear
+    -webkit-animation: rotating 2s linear infinite;
+}@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
 }
 .container-iksrDt .button-1aU9q1 svg path{
 	display:none
