@@ -34,14 +34,7 @@
 	background-image:url(https://rawgit.com/MigTM/Contenu-Theme/master/Boutton-Parametre.svg)!important
 }
 .container-iksrDt .button-1aU9q1:hover svg{
-    -webkit-animation: rotating 2s linear infinite;
-}@-webkit-keyframes rotating {
-    from{
-        -webkit-transform: rotate(0deg);
-    }
-    to{
-        -webkit-transform: rotate(360deg);
-    }
+	-webkit-animation:load8 2.8s infinite linear;animation:load8 2.8s infinite linear
 }
 .container-iksrDt .button-1aU9q1 svg path{
 	display:none
@@ -54,33 +47,7 @@
 }
 
 /* Icone paramètres */
-/* ne pas toucher */ .ui-standard-sidebar-view .sidebar-region .sidebar{height:100%;padding:0 6px 0 20px}.ui-standard-sidebar-view .sidebar-region [class*="side-"]{padding:30px 0}.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"],#bd-settings-sidebar .ui-tab-bar-item{padding-left:50px}.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]::after,#bd-settings-sidebar .ui-tab-bar-item::after{content:"";position:absolute;width:24px;height:24px;left:15px;margin-top:-2px;opacity:.3;-webkit-transition:all .15s ease-in-out;transition:all .15s ease-in-out}
-/* Compte */ .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(2)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Compte.svg)}
-/* Confidentialité */ .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(3)::after,[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(9)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Sécurité.svg)}
-/* App */ .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(4)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Applications.svg)} 
-/* Connexions */ .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(5)::after,[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(6)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Connexions.svg)}
-/* Nitro */ .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(7)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Discord-Nitro.svg)}
-/* Voix */ .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(10)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Voix-Et-Video.svg)}
-/* Overlay */ .platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(11)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Overlay.svg)}
-/* Notification */ .platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(12)::after,.platform-osx  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(11)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Notifications.svg)}
-/* Raccourcis */ .platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(13)::after,.platform-osx  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(12)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/raccourcis.svg)}
-/* Jeux */ .platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(14)::after,.platform-osx  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(13)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Jeux.svg)}
-/* Texte */ .platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(15)::after,.platform-osx  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(14)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Texte-Et-Images.svg)}
-/* Apparence */ .platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(16)::after,.platform-osx  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(15)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Apparence.svg)}
-/* Mode streamer */ .platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(17)::after,.platform-osx  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(16)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Mode-Streamer.svg)}
-/* Langue */ .platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(18)::after,.platform-osx  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(17)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Language.svg)}
-/* Windows */ .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(19)::after{background:url(https://puu.sh/yFxQD/dc8fd5904a.png)}
-/* Mise a jour */ .platform-win  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(21)::after,.platform-osx  .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(20)::after,[layer-id="server-settings"] .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"]:nth-child(4)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Note-de-mise-a-jour.svg)} 
-/* Core */ #bd-settings-sidebar .ui-tab-bar-item:nth-child(3)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Core.svg)}
-/* Zere Fork */
-/* Emotes */ #bd-settings-sidebar .ui-tab-bar-item:nth-child(5)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Emotes.svg)}
-/* CSS */ #bd-settings-sidebar .ui-tab-bar-item:nth-child(6)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Custom-css.svg)}
-/* Plugins */ #bd-settings-sidebar .ui-tab-bar-item:nth-child(7)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Plugins.svg)}
-/* Themes */ #bd-settings-sidebar .ui-tab-bar-item:nth-child(8)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/Theme.svg)}
-/* Deco */ 
-.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller .sidebar > * > [class*="item"]:nth-child(24)::after{background:url(https://rawgit.com/MigTM/Contenu-Theme/master/D%C3%A9connexion.svg)}
-.item-3879bf:nth-of-type(23):hover:nth-child(24)::after {transform: rotateY(180deg) !important; transition: all .1s ease-in-out,transform .3s ease-in-out}
-
+/* ne pas toucher */ .ui-standard-sidebar-view .sidebar-region .sidebar{height:100%;padding:0 6px 0 20px}.ui-standard-sidebar-view .sidebar-region [class*="side-"]{padding:30px 0}
 
 /* CONTENU NOTIF MISE A JOUR ET MESSAGES MODE STREAM */
 
@@ -138,9 +105,25 @@
 }
 
 /* Barre de nouveaux messages */
-
 .chat .new-messages-bar {
 	background-color: var(--couleur-theme);
+}
+.chat .new-messages-bar button:last-child {
+	color: var(--couleur-blanc);
+}
+
+/* Barre revenir aux messages plus récents */
+.theme-dark .chat .jump-to-present-bar {
+	background-color: var(--couleur-theme);
+}
+.chat .jump-to-present-bar button:last-child {
+	color: var(--couleur-blanc);
+}
+
+/* est entrain d'écrire */
+
+.theme-dark .typing-3eiiL_ span {
+	color: var(--couleur-theme);
 }
 
 /* Popout recherche */
@@ -176,6 +159,14 @@
 
 .theme-dark .message-group h2 strong {
 	color: var(--couleur-theme);
+}
+
+/* Paramètres messages */
+.message-group .btn-option:hover {
+	animation: load8 2.8s infinite linear;
+}
+#bd-ps-body table tr:hover {
+	background-color:var(--main-color)}@keyframes swing{0%{transform:rotate(0deg);-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);-ms-transform:rotate(0deg)}25%{transform:rotate(-30deg);-webkit-transform:rotate(-30deg);-moz-transform:rotate(-30deg);-o-transform:rotate(-30deg);-ms-transform:rotate(-30deg)}50%{transform:rotate(0deg);-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);-ms-transform:rotate(0deg)}75%{transform:rotate(30deg);-webkit-transform:rotate(30deg);-moz-transform:rotate(30deg);-o-transform:rotate(30deg);-ms-transform:rotate(30deg)}100%{transform:rotate(0deg);-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);-ms-transform:rotate(0deg)}}@-webkit-keyframes swing{0%{transform:rotate(0deg);-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);-ms-transform:rotate(0deg)}25%{transform:rotate(-30deg);-webkit-transform:rotate(-30deg);-moz-transform:rotate(-30deg);-o-transform:rotate(-30deg);-ms-transform:rotate(-30deg)}50%{transform:rotate(0deg);-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);-ms-transform:rotate(0deg)}75%{transform:rotate(30deg);-webkit-transform:rotate(30deg);-moz-transform:rotate(30deg);-o-transform:rotate(30deg);-ms-transform:rotate(30deg)}100%{transform:rotate(0deg);-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);-ms-transform:rotate(0deg)}}@keyframes swing1{0%{left:-15px;right:0}25%{left:-100px;right:0}50%{left:-15px;right:0}75%{left:0;right:-100px}100%{left:-15px;right:0}}@-webkit-keyframes swing1{0%{left:-15px;right:0}25%{left:-100px;right:0}50%{left:-15px;right:0}75%{left:0;right:-100px}100%{left:-15px;right:0}}@-webkit-keyframes load8{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes load8{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes load8-active{0%{-webkit-transform:rotate(0deg) scale(0.9);transform:rotate(0deg) scale(0.9)}100%{-webkit-transform:rotate(360deg) scale(0.9);transform:rotate(360deg) scale(0.9)}}@keyframes load8-active{0%{-webkit-transform:rotate(0deg) scale(0.9);transform:rotate(0deg) scale(0.9)}100%{-webkit-transform:rotate(360deg) scale(0.9);transform:rotate(360deg) scale(0.9)}
 }
 
 /* Paramètres messages */
@@ -265,6 +256,17 @@
     border-radius: 5px;
 }
 
+/* Message Bienvenue serveur */
+.app .welcomeMessage-1U7Ntv h1 {
+	color: var(--couleur-theme);
+}
+.welcomeMessage-1U7Ntv p {
+	color: var(--couleur-theme-0-75);
+}
+.theme-dark .welcomeMessage-1U7Ntv a {
+	color: var(--couleur-theme-0-5);
+}
+
 /* CONTENU LISTE CHANNEL */
 
 /* Couleur channel séléctionner */
@@ -330,6 +332,26 @@
 .wrapper-2xO9RX {
 	background-color: var(--couleur-rouge) !important;
 	border-radius: 5px;
+}
+
+/* Info connexion vocal channel serveur */
+.popout header, .popout section {
+	background-color: var(--couleur-gris-foncer-0-8);
+}
+.popout.popout-top-right section:after, .popout.popout-top section:after {
+	border-top-color: var(--couleur-gris-foncer-0-8) !important;
+}
+.popout.popout-top-right section:before, .popout.popout-top section:before {
+	border-top-color: transparent !important;
+}
+
+/* icone paramètres channel */
+.actionIcon-2JXNvo {
+	background-image: url(https://rawgit.com/MigTM/Contenu-Theme/master/Boutton-Parametre.svg)!important; 
+	background-position:center;background-repeat:no-repeat;background-size:20px;opacity:.3;
+}
+.actionIcon-2JXNvo:hover {
+		animation: load8 2.8s infinite linear;
 }
 
 /* CONTENU MESSAGE PRIVES */
@@ -1604,6 +1626,12 @@ color: var(--couleur-blanc-0-75);
 	background-color: var(--couleur-theme-0-75);
 }
 
+/* Barre revenir aux messages plus récents */
+
+.theme-dark .chat .jump-to-present-bar:hover {
+	background-color: var(--couleur-theme-0-75);
+}
+
 /* Popout recherche */
 .search-popout .option.selected {
 	background-color: var(--couleur-theme-0-5);
@@ -1621,10 +1649,7 @@ color: var(--couleur-blanc-0-75);
 	border-radius: 5px;
 }
 
-/* Paramètres messages */
-.message-group .btn-option:hover {
-	-webkit-animation: rotating 2s linear infinite;
-}
+
 
 
 /* CONTENU INFO MINI POPOUT ( NOM SERVEUR... ) */
@@ -1712,4 +1737,3 @@ color: var(--couleur-blanc-0-75);
 .message-group h2 strong, .usernameOnline-jN8ojx, .user-tag {
 	font-weight: 700 !important;
 }
-
