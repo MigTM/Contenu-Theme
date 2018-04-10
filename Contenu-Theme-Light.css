@@ -1152,7 +1152,17 @@
 .theme-dark .select-3JqNgs .primary-2giqSn {
     color: var(--couleur-blanc) !important;
 }
+.ui-standard-sidebar-view .custom-scroller>div {
+    max-width: 2000px !important;
+}
 
+/* Rôles */
+.ui-standard-sidebar-view .content-column, .ui-standard-sidebar-view .custom-column {
+	max-width: 2000px !important;
+}
+.content-1orzGj  {
+	width: 100% !important;
+}
 /* Emoji */
 
 .theme-dark .emoji-alias-input .emoji-input {
