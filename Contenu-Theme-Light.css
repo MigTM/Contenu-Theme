@@ -1,3 +1,4 @@
+
 /* CONTENU EFFET FIX */
 
 /* CONTENU COULEUR ECRITURE ALL */
@@ -265,6 +266,27 @@
 }
 .theme-dark .welcomeMessage-1U7Ntv a {
 	color: var(--couleur-theme-0-5);
+}
+
+/* chargement message */
+.theme-dark .chat .has-more button {
+	background-color: var(--couleur-theme-0-75);
+	color: var(--couleur-blanc);
+	border: 1px solid transparent;
+}
+.theme-dark .chat .has-more button:hover {
+	background-color: var(--couleur-theme-0-5);
+	color: var(--couleur-blanc);
+}
+
+/* Mentions channel */
+.theme-dark .message-group .comment .markup .mention {
+	background-color: var(--couleur-theme-0-5);
+	color: var(--couleur-theme);
+	border-radius: 5px;
+}
+.theme-dark .message-group .comment .markup .mention:hover {
+	background-color: var(--couleur-theme-0-25);
 }
 
 /* CONTENU LISTE CHANNEL */
@@ -831,7 +853,34 @@
     color: var(--couleur-theme);
 }
 
-
+/* popout ajout d'amis dans conversation */
+.theme-dark .themed-popout, .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
+	background-color: var(--couleur-gris-foncer-0-8);
+}
+.private-channel-recipients-invite {
+	width: 360px;
+}
+.header .search-bar .search-bar-inner {
+	background-color: var(--couleur-theme-0-25);
+}
+.theme-dark .themed-popout .header, .theme-dark .private-channel-recipients-invite .friend, .header .search-bar {
+	background-color: transparent;
+}
+.bd-blue .private-channel-recipients-invite .footer button, .bd-blue .private-channel-recipients-invite .footer button:disabled:hover {
+	background-color: var(--couleur-theme);
+}
+.bd-blue .private-channel-recipients-invite .footer button:hover {
+	background-color: var(--couleur-theme-0-75);
+}
+.theme-dark .private-channel-recipients-invite .friend.selected {
+	background: var(--couleur-theme-0-5) !important;
+}
+.theme-dark .private-channel-recipients-invite .friend:hover {
+	background: var(--couleur-theme-0-75) !important;
+}
+.search-bar-tag {
+	background: var(--couleur-gris-foncer-0-6);
+}
 /* CONTENU PARAMETRE */
 
 /* Taille menu paramètres */
@@ -1354,7 +1403,6 @@ color: var(--couleur-blanc-0-75);
 .lookFilled-luDKDo.colorRed-3HTNPV:hover {
 	background-color: var(--couleur-rouge-0-75);
 }
-
 
 
 
