@@ -1,4 +1,3 @@
-
 /* CONTENU EFFET FIX */
 
 /* CONTENU COULEUR ECRITURE ALL */
@@ -127,14 +126,14 @@
 	color: var(--couleur-theme);
 }
 
-/* Popout recherche */
+/* Popout recherche 
 .search-popout,.react-datepicker {
 	background-color: var(--couleur-gris-foncer-0-8);
 }
 .search .DraftEditor-root .public-DraftStyleDefault-block {
 	color: var(--couleur-theme) !important;
 }
-/*.search-popout .search-option .filter,
+.search-popout .search-option .filter,
 .search-popout .option .answer,
 .search-popout .option strong,
 .search-popout .option.user .displayed-nick,
@@ -601,7 +600,7 @@
 .theme-dark .popout .messages-popout-wrap {
 	background-color: var(--couleur-gris-foncer-0-8);
 }
-.theme-dark .popout .messages-popout-wrap .header {
+.theme-dark .popout .messages-popout-wrap .header, .theme-dark .popout .messages-popout-wrap .footer {
 	background-color: transparent;
 }
 .theme-dark .messages-popout-wrap .messages-popout .message-group {
@@ -616,7 +615,7 @@
 	background-color: transparent;
 	border-top: 1px solid var(--couleur-gris-foncer-0-8);
 }
-.theme-dark .messages-popout-wrap .scroller-wrap .message-group .comment h2 .timestamp, .theme-dark .recent-mentions-popout .mention-filter .label, .theme-dark .recent-mentions-popout .mention-filter .value {
+.theme-dark .messages-popout-wrap .scroller-wrap .message-group .comment h2 .timestamp, .theme-dark .recent-mentions-popout .mention-filter .label, .theme-dark .recent-mentions-popout .mention-filter .value, .theme-dark .undefined .footer .block-3bMcN6 .primary-2giqSn, .theme-dark .undefined .footer .block-3bMcN6 .height16-1qXrGy {
 	color: var(--couleur-blanc-0-75);
 }
 .messages-popout-wrap .message-group .comment .markup, .theme-dark .messages-popout-wrap .messages-popout .channel-separator .guild-name, .theme-dark .themed-popout .header .title,.theme-dark .messages-popout-wrap .messages-popout .channel-separator .channel-name {
@@ -1690,13 +1689,29 @@ color: var(--couleur-blanc-0-75);
 	background-color: var(--couleur-theme-0-75);
 }
 
-/* Popout recherche */
-.search-popout .option.selected {
+/* Popout recherche channel... */
+
+.theme-dark .searchPopout-38pRYh {
+	background-color: var(--couleur-gris-foncer);
+	border: 1px solid transparent;
+}
+.theme-dark .resultsGroup-2qzvNj .header-1pJ5N1, .theme-dark .searchOption-vKNX73 .filter-3kZ3tT, .theme-dark .option-1MvVr1 .nonText-1oayCI {
+	color: var(--couleur-blanc);
+}
+.theme-dark .searchOption-vKNX73 .answer-9L5NhD {
+	color: var(--couleur-blanc-0-75);
+}
+.theme-dark .option-1MvVr1.selected-_bTXUG {
+	background-color: var(--couleur-theme-0-5);
+}
+
+
+/* .search-popout .option.selected {
 	background-color: var(--couleur-theme-0-5);
 }
 .search-popout .results-group::before,.search-popout .option::after,.search-results-wrap .search-result::before,.search-results-wrap .search-result::after {
 	display:none
-}
+} */
 
 /* Speudo */
 
