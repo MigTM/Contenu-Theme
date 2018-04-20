@@ -288,6 +288,17 @@
 	background-color: var(--couleur-theme-0-25);
 }
 
+/* mini popout quand on commence a écrire le nom d'un émoji */
+.theme-dark .autocomplete-1TnWNR {
+	background-color: var(--couleur-gris-foncer-0-6);
+}
+.theme-dark .contentTitle-sL6DrN {
+	color: var(--couleur-blanc);
+}
+.theme-dark .selectorSelected-2M0IGv {
+	background-color: var(--couleur-theme-0-5);
+}
+
 /* CONTENU LISTE CHANNEL */
 
 /* Couleur channel séléctionner */
@@ -1665,7 +1676,6 @@ color: var(--couleur-blanc-0-75);
 }
 
 /* popout emotes chat */
-
 .bda-dark .emojiPicker-3g68GS {
     background-color: var(--couleur-gris-foncer-0-8);
     border-color: transparent;
@@ -1679,6 +1689,9 @@ color: var(--couleur-blanc-0-75);
 .bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar, .bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar-track-piece {
     background-color: transparent !important;
 }
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar, .bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar-track, .bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar-track-piece {
+	border-color: transparent !important;
+}
 .bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar-track, .search-bar.search-bar-light .search-bar-inner, .bda-dark .emojiPicker-3g68GS .scroller-2dsok0 .emojiItem-3l4Fa9.selected-1LQfcZ {
     background-color: var(--couleur-theme-0-25) !important;
 }
@@ -1689,6 +1702,7 @@ color: var(--couleur-blanc-0-75);
 .bda-dark .emojiPicker-3g68GS .dimmer-jySV_v.visible-1CGy1m {
     background-color: var(--couleur-gris-foncer-0-6);
 }
+
 /* CONTENU CHAT */
 
 /* Barre de nouveaux messages */
@@ -1824,3 +1838,4 @@ color: var(--couleur-blanc-0-75);
 .message-group h2 strong, .usernameOnline-jN8ojx, .user-tag {
 	font-weight: 700 !important;
 }
+
