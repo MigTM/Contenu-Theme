@@ -1557,18 +1557,32 @@ color: var(--couleur-blanc-0-75);
 }
 
 /* popout mentions */
-.theme-dark .messages-popout-wrap .messages-popout .message-group:hover {
-	border-color: var(--couleur-theme);
+.theme-dark .messagesPopoutWrap-1VBR-j {
+	background-color: var(--couleur-gris-foncer-0-6);
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
-	background-color: var(--couleur-theme-0-75);
-	box-shadow: 0 0 6px 4px var(--couleur-theme-0-75);
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group {
+	background-color: var(--couleur-theme-0-25);
+	border-color: var(--couleur-theme-0-5) !important;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+.theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc {
+	background-color: transparent;
+}
+.message-group:hover .actionButtons-LKmOj2{
+	background-color: var(--couleur-theme-0-75) !important;
+	box-shadow: 0 0 6px 4px var(--couleur-theme-0-75) !important;
+}
+.message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO {
 	background-color: transparent !important;
 }
-.theme-dark .themed-popout .header .subtitle, .theme-dark .themed-popout .text, .theme-dark .messages-popout-wrap .messages-popout .channel-separator .guild-name {
+.theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc .title-1SAkRa, .theme-dark .headerTabBarWrapper-3uOJ6x .tab-bar.TOP .tab-bar-item.selected, .theme-dark .mentionFilter-wE0FR9 .label-3EbduD, .theme-dark .mentionFilter-wE0FR9 .value-NdVIa2, .theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .channelSeparator-21vGh8 .channelName-1C6XzK {
 	color: var(--couleur-blanc);
+}
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .channelSeparator-21vGh8 .channelName-1C6XzK:hover {
+	color: var(--couleur-blanc-0-75);
+	text-decoration: none;
+}
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .channelSeparator-21vGh8 .guildName-wbcfYO {
+	color: var(--couleur-blanc-0-75);
 }
 .tab-bar.TOP .tab-bar-item:hover {
 	border-bottom: 2px solid rgba(255,255,255,0.2);
