@@ -1744,7 +1744,6 @@ color: var(--couleur-blanc-0-75);
 /* Speudo */
 
 .chat .user-name:hover {
-	color: var(--couleur-theme-0-75);
 	text-decoration: none;
 	background-color: var(--couleur-theme-0-25);
 	border-radius: 5px;
