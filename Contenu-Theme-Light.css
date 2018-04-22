@@ -293,6 +293,14 @@
 	background-color: var(--couleur-theme-0-5);
 }
 
+/* Popout réactions sur un message */
+.theme-dark .container-a2vS7i, .theme-dark .reactors-2PjMP0, .theme-dark .item-rK1j5B:hover {
+	background-color: var(--couleur-theme-0-5);
+}
+.theme-dark .sidebar-32BRdp {
+	background-color: var(--couleur-theme-0-75);
+}
+
 /* CONTENU LISTE CHANNEL */
 
 /* Couleur channel séléctionner */
@@ -588,7 +596,7 @@
 }
 
 /* popout serveur */
-.menu-3BZuDT {
+.theme-dark .menu-3BZuDT {
 	background-color: var(--couleur-gris-foncer-0-8);
 }
 .separator-1hpa3S {
