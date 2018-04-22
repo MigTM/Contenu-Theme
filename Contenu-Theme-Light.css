@@ -155,12 +155,6 @@
 	color: var(--couleur-theme-0-75);
 }
 
-/* Speudo */
-
-.theme-dark .message-group h2 strong {
-	color: var(--couleur-theme);
-}
-
 /* Paramètres messages */
 .message-group .btn-option:hover {
 	animation: load8 2.8s infinite linear;
