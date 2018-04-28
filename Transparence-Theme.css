@@ -1,6 +1,6 @@
 /* Transparence toute l'app */
 
-.theme-dark .layer-kosS71, .theme-dark .layers-20RVFW, .container-2OU7Cz, .appMount-14L89u {
+.appMount-3VJmYg, .container-2lgZY8, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
 	background-color: transparent !important;
 }
 
@@ -21,14 +21,14 @@
 	background-color: transparent !important;
 }
 /* Transparence liste channel */
-.channels-3g2vYe {
+.channels-Ie2l6A {
 	background-color: rgba(0,0,0,0.55) !important;
 }
-.container-RYiLUQ {
+.container-2Thooq, .container-PNkimc {
 	background-color: transparent !important;
 }
 /* Transparence appel channel vocal */
-.container-3lnMWU {
+.container-1UB9sr {
 	background-color: transparent !important;
 	border-bottom: 1px solid transparent !important;
 }
@@ -40,11 +40,11 @@
 .theme-dark .chat>.content {
 	background-color: rgba(0,0,0,0.5) !important;
 }
-.theme-dark .members-1bid1J {
+.theme-dark .members-1998pB {
     background-color: rgba(0,0,0,0.1) !important;
 }
 /* Transparence nom channel */
-.theme-dark .title-qAcLxz {
+.theme-dark .title-3qD0b- {
 	background-color: rgba(0,0,0,0.6) !important;
 }
 /* Transparence chat */
@@ -101,24 +101,24 @@
 .form-deprecated .form-header, .form.deprecated .form-header, .form-deprecated .form-inner, .form.deprecated .form-inner, .wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions {
 	background-color: var(--couleur-theme-0-5)
 }
-.theme-dark .footer-1PYmcw {
+.theme-dark .footer-1PYmcw, .theme-dark .footer-2yfCgX {
 	background-color: transparent;
 }
 
 /* Transparence créer un salon textuel */
 
-.theme-dark .modal-3HOjGZ {
+.theme-dark .modal-3HOjGZ, .theme-dark .modal-3HD5ck {
 	background-color: var(--couleur-theme-0-5);
 }
 
 /* Barre est entrain de écrire */
 
-.theme-dark .typing-3eiiL_ {
+.theme-dark .typing-2GQL18 {
 	background-color: transparent !important;
 }
 
 /* Transparence barre du dessus avec logo... */
 
-.titleBar-3_fDwJ {
+.titleBar-AC4pGV {
 	background-color: rgba(0,0,0,0.7) !important;
 }
