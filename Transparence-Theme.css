@@ -61,7 +61,7 @@
 	background-color: rgba(0,0,0,0.5) !important;
 }
 /* Transparence barre ajouter amis... */
-.theme-dark .headerBar-cxbhPD {
+.theme-dark .headerBar-UHpsPw {
 	background-color: rgba(0,0,0,0.2) !important;
 }
 
@@ -122,3 +122,10 @@
 .titleBar-AC4pGV {
 	background-color: rgba(0,0,0,0.7) !important;
 }
+
+/* Transparence barre recherche */
+
+.theme-dark .search .search-bar {
+	background-color: rgba(0,0,0,0.2);
+}
+
