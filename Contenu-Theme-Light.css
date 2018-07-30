@@ -2003,6 +2003,9 @@ color: var(--couleur-blanc-0-75);
 .highlight {
 	background: var(--couleur-theme);
 }
+.markup-2BOw-j .highlight {
+    background: var(--couleur-theme-0-2);
+}
 .theme-dark .search-results .message-group h2 .timestamp {
 	color: var(--couleur-blanc-0-75);
 }
