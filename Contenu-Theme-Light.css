@@ -492,6 +492,58 @@
 	background-color: var(--couleur-theme-0-5);
 }
 
+/* Onglets jeux */
+.theme-dark .activityFeed-28jde9 {
+	background-color: rgba(0,0,0,0.5);
+}
+.theme-dark .personalizationNotice-2HTAH2 {
+	background-color: var(--couleur-theme-0-25);
+	border-color: var(--couleur-theme-0-5);
+	color: var(--couleur-blanc);
+}
+.anchor-3Z-8Bb {
+	color: var(--couleur-blanc-0-75);
+}
+.anchor-3Z-8Bb:hover {
+	color: var(--couleur-blanc-0-75);
+	opacity: 0.75;
+	text-decoration: none;
+}
+.theme-dark .lookFilled-1Gx00P.colorTransparent-1ewNp9 {
+	background-color: var(--couleur-rouge);
+}
+.theme-dark .lookFilled-1Gx00P.colorTransparent-1ewNp9:hover {
+	background-color: var(--couleur-rouge-0-75);
+}
+/* Entrain de jouer */
+.theme-dark .body-SKIE6r {
+	background-color: var(--couleur-theme-0-5);
+}
+.theme-dark .header-1RC2Wb {
+	background-color: var(--couleur-theme-0-75);
+}
+.theme-dark .card-7JP0BX {
+	background-color: rgba(0,0,0,0);
+}
+.theme-dark .header-1RC2Wb:hover {
+	background-color: var(--couleur-theme-0-5);
+}
+.theme-dark .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover {
+	background-color: var(--couleur-theme-0-75);
+}
+.theme-dark .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV {
+	background-color: var(--couleur-theme);
+}
+.headerButtonColor-G7_f-V {
+	background: rgba(0,0,0,0.5);
+}
+.theme-dark .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover {
+	background: var(--couleur-theme-0-75);
+}
+.theme-dark .dockItem-2kQDqg:hover {
+	background-color: var(--couleur-gris-foncer-0-6);
+}
+
 /* CONTENU LISTE MEMBRES */
 
 /* Membre */
@@ -658,6 +710,16 @@
 	color: var(--couleur-blanc-0-75);
 	text-decoration: underline;
 }
+.theme-dark .messageGroupWrapper-o-Zw7G {
+	background-color: var(--couleur-theme-0-25);
+}
+.theme-dark .embedPill-1Zntps {
+	background-color: var(--couleur-theme-0-5);
+}
+.theme-dark .embedInner-1-fpTo {
+	background-color: var(--couleur-gris-foncer);
+	border-color: var(--couleur-gris-foncer-0-6);
+}
 
 /* popout aide */
 
@@ -692,7 +754,7 @@
     width: 200px!important;
     height: 200px!important;
     border: none;
-    margin-bottom: 10px !important;
+    margin-bottom: 0px !important;
 }
 .userPopout-3XzG_A .avatarHint-1qgaV3 {
     margin-top: -90px !important;
@@ -807,7 +869,7 @@
 .bodyTitle-Y0qMQz { 
     color: var(--couleur-blanc) !important; 
 }
-.topSectionPlaying-3jAH9b, .body-3_tdh6, .theme-dark .topSectionNormal-2-vo2m { 
+.topSectionPlaying-1J5E4n, .body-3_tdh6, .theme-dark .topSectionNormal-2-vo2m { 
     background: transparent !important; 
 }
 .header-QKLPzZ, .tabBarContainer-1s1u-z { 
@@ -816,7 +878,7 @@
 .header-QKLPzZ { 
     background-color: rgba(0,0,0,0.65) !important; 
 }
-.headerFill-TTyrtz { 
+.headerFill-adLl4x { 
     background-color: rgba(0,0,0,0.55) !important; 
 }
 .theme-dark .body-3ND3kc { 
@@ -880,6 +942,22 @@
 }
 .lookInverted-2lPGe7.colorBrand-3PmwCE:hover {
     background-color: var(--couleur-theme-0-75);
+}
+.topSectionSpotify-1lI0-P, .topSectionStreaming-1Tpf5X {
+	background: transparent;
+}
+.buttonInvertedPurple-WtBglX, .lookInverted-2D7oAl.colorGreen-29iAKY {
+	background-color: var(--couleur-theme);
+	color: var(--couleur-blanc);
+}
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+	background-color: var(--couleur-theme);
+	color: var(--couleur-blanc);
+	border-color: transparent;
+}
+.buttonInvertedPurple-WtBglX:hover, .lookInverted-2D7oAl.colorGreen-29iAKY:hover, .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
+	background-color: var(--couleur-theme-0-75);
+	border-color: transparent;
 }
 
 /* popout paramètre messages */
@@ -1687,7 +1765,7 @@ color: var(--couleur-blanc-0-75);
 .theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc, .theme-dark .messagesPopoutWrap-1VBR-j .footer-1aZ98z {
 	background-color: transparent;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug{
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug{
 	background-color: var(--couleur-theme-0-75) !important;
 	box-shadow: 0 0 6px 4px var(--couleur-theme-0-75) !important;
 }
@@ -1706,6 +1784,9 @@ color: var(--couleur-blanc-0-75);
 }
 .tab-bar.TOP .tab-bar-item:hover {
 	border-bottom: 2px solid rgba(255,255,255,0.2);
+}
+.theme-dark .jumpButton-3DTcS_ {
+	background-color: transparent;
 }
 
 /* Petit menu popout dans les paramètres pour sélection micro... */
@@ -1838,8 +1919,29 @@ color: var(--couleur-blanc-0-75);
 .emote-container:hover {
 	background-color: var(--couleur-theme-0-25) !important;
 }
+.bda-dark .emojiPicker-3m1S-j .header-1nkwgG .search-bar, .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
+	background-color: transparent;
+}
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
+	background-color: transparent !important;
+	border-color: transparent !important;
+}
 
 /* CONTENU CHAT */
+
+/* Couleur message chat */
+
+.theme-dark .markup-2BOw-j {
+	color: var(--couleur-theme);
+}
+.theme-dark .timestampCozy-2hLAPV {
+	color: var(--couleur-theme-0-75);
+}
+.theme-dark .username-_4ZSMR:hover {
+	text-decoration: none;
+	background-color: var(--couleur-theme-0-5);
+	border-radius: 5px;
+}
 
 /* Barre de nouveaux messages */
 
