@@ -1,3 +1,4 @@
+
 /* CONTENU EFFET FIX */
 
 /* CONTENU COULEUR ECRITURE ALL */
@@ -601,7 +602,7 @@
 
 /* Message serveur non lue */
 
-.guilds-wrapper .guilds .guild.unread:before {
+.theme-dark .guild-1EfMGQ.unread-qLkInr:before {
 	background-color: var(--couleur-theme);
 }
 
@@ -615,7 +616,7 @@
 
 /* Serveur selectionner */
 
-.guilds-wrapper .guilds .guild.selected:before {
+.theme-dark .guild-1EfMGQ.selected-ML3OIq:before {
 	background-color: var(--couleur-theme);
 }
 
@@ -627,26 +628,38 @@
 }
 
 /* Icone créations serveur */
-.guilds-wrapper .guilds-add::before{
+.theme-dark .guildsAdd-21_IdK::before{
     content:"";background-color:#333539;position:absolute;left:47%;top:24%;height:50%;width:2px;border-radius:3px;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out
 }
-.guilds-wrapper .guilds-add::after{
+.theme-dark .guildsAdd-21_IdK::after{
     content:"";background-color:#333539;position:absolute;left:24%;top:47%;height:2px;width:50%;border-radius:3px;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out
 }
-.bd-minimal .guilds-wrapper .guilds-add::before{
+.bd-minimal .theme-dark .guildsAdd-21_IdK::before{
     height:10px
 }
-.bd-minimal .guilds-wrapper .guilds-add::after{
+.bd-minimal .theme-dark .guildsAdd-21_IdK::after{
     width:10px
 }
-.guilds-wrapper .guilds-add:hover::before,.guilds-wrapper .guilds-add:hover::after{
+.theme-dark .guildsAdd-21_IdK:hover::before,.theme-dark .guildsAdd-21_IdK:hover::after{
     background-color:var(--main-color)!important;-webkit-animation:pulsate-color 2s infinite ease-in-out;animation:pulsate-color 2s infinite ease-in-out}@-webkit-keyframes pulsate-color{0%,100%{background-color:#333539}50%{background-color:currentcolor}}@keyframes pulsate-color{0%,100%{background-color:#333539}50%{background-color:currentcolor}}@-webkit-keyframes pulsate-border{0%,100%{border-color:#535559}50%{border-color:currentcolor}}@keyframes pulsate-border{0%,100%{border-color:#535559}50%{border-color:currentcolor}
 }
-.guilds-wrapper .guilds-add{
+.theme-dark .guildsAdd-21_IdK{
     color:transparent;background-image:none;background-size:20px 20px;background-repeat:no-repeat;background-position:center;background-color:rgba(21,21,21,0.41);font-size:0;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out;opacity:.7
 }
-.guilds-wrapper .guilds-add:hover{
+.theme-dark .guildsAdd-21_IdK:hover{
     color:var(--main-color);border-color:var(--main-color);-webkit-animation:pulsate-border 2s infinite ease-in-out;animation:pulsate-border 2s infinite ease-in-out
+}
+
+/* couleur de fond des icones */
+
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
+    background-color: transparent;
+}
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4:hover {
+    background-color: var(--couleur-theme) !important;
+}
+.guildInner-3DSoA4, .da-guildInner {
+    background-color: transparent !important;
 }
 
 
