@@ -34,10 +34,10 @@
 }
 
 /* Transparence Chat et Liste membre */
-.theme-dark .chat {
+.theme-dark .chat-3bRxxu {
 	background-color: transparent !important;
 }
-.theme-dark .chat>.content {
+.theme-dark .content-yTz4x3 {
 	background-color: rgba(0,0,0,0.5) !important;
 }
 .theme-dark .members-1998pB {
@@ -48,7 +48,7 @@
 	background-color: rgba(0,0,0,0.6) !important;
 }
 /* Transparence chat */
-.theme-dark .friends-table, .theme-dark .messages-wrapper, .theme-dark .chat form {
+.theme-dark .friends-table, .theme-dark .messagesWrapper-3lZDfY, .theme-dark .chat-3bRxxu form {
 	background-color: transparent !important;
 }
 /* Transparence liste membre */
@@ -78,7 +78,7 @@
 	background-color: rgba(0,0,0,0.55) !important;
 }
 
-/* Transparence menu appel privé */ 
+/* Transparence menu appel privé */
 .theme-dark .private-channel-call , .video-3lOWa6 {
 	background-color: rgba(0,0,0,0.35) !important;
 }
@@ -90,8 +90,8 @@
 	background-color: transparent !important;
 	border-color: transparent !important;
 }
-.titleCall-3X0yGQ { 
-	background-color: rgba(0,0,0,0.1) !important; 
+.titleCall-3X0yGQ {
+	background-color: rgba(0,0,0,0.1) !important;
 }
 
 /* Transparence inviter personne */
