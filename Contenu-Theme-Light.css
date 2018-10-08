@@ -1,4 +1,3 @@
-
 /* CONTENU EFFET FIX */
 
 /* CONTENU COULEUR ECRITURE ALL */
@@ -65,6 +64,15 @@
 
 /* CONTENU CHAT */
 
+/* option message */
+
+.theme-dark .container-3cGP6G {
+  background: var(--couleur-gris-foncer-0-8);
+}
+.theme-dark .item-2J1YMK:active, .theme-dark .item-2J1YMK:hover {
+  background-color: var(--couleur-theme-0-75) !important;
+}
+
 /* Couleur barre de "scroll" pour le chat */
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
 	background-color: rgba(0,0,0,0.2) !important;
@@ -81,6 +89,10 @@
 /* Barre nouveaux message dans le chat */
 .theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span, .theme-dark .divider-3gKybi span {
 	background-color: var(--couleur-theme) !important;
+  border-radius: 10px;
+}
+.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before, .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before {
+  border-color: transparent;
 }
 .chat .divider>span, .theme-dark .divider-3gKybi span {
 	width: 100% !important;
@@ -421,10 +433,11 @@
 
 /* Amis selectionner */
 
-.private-channels .channel.selected a {
+ .channel-2QD9_O.selected-1HYmZZ a {
 	background-color: var(--couleur-theme-0-5);
 	border-radius: 5px;
 }
+
 
 /* Icone amis sélectionner */
 
@@ -1006,10 +1019,10 @@
 .private-channel-recipients-invite {
 	width: 360px;
 }
-.header .search-bar .search-bar-inner {
+.search-bar .search-bar-inner {
 	background-color: var(--couleur-theme-0-25);
 }
-.theme-dark .themed-popout .header, .theme-dark .private-channel-recipients-invite .friend, .header .search-bar {
+.theme-dark .themed-popout .header, .theme-dark .private-channel-recipients-invite .friend, .search-bar {
 	background-color: transparent;
 }
 .bd-blue .private-channel-recipients-invite .footer button, .bd-blue .private-channel-recipients-invite .footer button:disabled:hover {
@@ -1719,7 +1732,7 @@ color: var(--couleur-blanc-0-75);
 
 /* Liste messages privés */
 
-.private-channels .channel a:hover, .private-channels .channel:hover a {
+.private-channels .channel a:hover, .channel-2QD9_O:hover a  {
 	background-color: var(--couleur-theme-0-75) !important;
 	border-radius: 5px;
 }
@@ -1899,6 +1912,9 @@ color: var(--couleur-blanc-0-75);
 .bda-dark .emojiPicker-3m1S-j, .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container, .bda-dark #bda-qem button {
     background-color: var(--couleur-gris-foncer-0-8);
     border-color: transparent;
+}
+.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
+  border-bottom-color: var(--couleur-theme);
 }
 .search-bar.search-bar-light, .bda-dark .emojiPicker-3g68GS .header-27dQ-e .search-bar, .bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3g68GS .category-3rCtoh, .emojiPicker-3m1S-j .stickyHeader-1SS0JU {
     background-color: transparent;
