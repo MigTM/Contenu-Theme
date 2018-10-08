@@ -1,32 +1,4 @@
-/* Transparence toute l'app */
 
-.appMount-3VJmYg, .container-2lgZY8, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
-	background-color: transparent !important;
-}
-
-/* Transparence notif plugins mise a jour et notif mode streamer */
-
-.noticeInfo-3v29SJ, .noticeStreamerMode-1OlfKV {
-    background-color: rgba(0,0,0,0.65) !important;
-}
-
-/* Transparence liste serveur */
-
-.theme-dark .guildsWrapper-5TJh6A {
-	background-color: rgba(0,0,0,0.6) !important;
-}
-
-/* Transparence logo/speudo bouton paramètre... en bas a gauche */
-.container-iksrDt {
-	background-color: transparent !important;
-}
-/* Transparence liste channel */
-.channels-Ie2l6A {
-	background-color: rgba(0,0,0,0.55) !important;
-}
-.container-2Thooq, .container-PNkimc {
-	background-color: transparent !important;
-}
 /* Transparence appel channel vocal */
 .container-1UB9sr {
 	background-color: transparent !important;
