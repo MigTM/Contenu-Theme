@@ -60,10 +60,7 @@
 .theme-dark #friends, #friends {
 	background-color: rgba(0,0,0,0.5) !important;
 }
-/* Transparence barre ajouter amis... */
-.theme-dark .headerBar-UHpsPw {
-	background-color: rgba(0,0,0,0.2) !important;
-}
+
 
 /* Transparence menu paramètre */
 .theme-dark .ui-standard-sidebar-view {
