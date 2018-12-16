@@ -332,6 +332,8 @@
 	background-color: var(--couleur-gris-foncer);
 }
 
+
+
 /* CONTENU LISTE CHANNEL */
 
 /* Couleur channel séléctionner */
@@ -574,6 +576,116 @@
 .theme-dark .dockItem-2kQDqg:hover {
 	background-color: var(--couleur-gris-foncer-0-6);
 }
+
+/* CONTENU BIBLIO */
+
+/* couleur jour */
+
+.theme-dark .textCell-1aBIUP {
+    color: var(--couleur-blanc-0-75);
+}
+
+/* couleur titre nom */
+
+.theme-dark .header-39GIC8 {
+    color: var(--couleur-blanc);
+}
+
+/* couleur bouton */
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    background-color: var(--couleur-theme);
+}
+
+/* CONTENU GIFT */
+
+/* bouton selectionner */
+
+.theme-dark .topPill-30KHOu .itemSelected-1qLhcL {
+    background-color: var(--couleur-theme-0-5);
+    color: var(--couleur-blanc);
+}
+
+/* CONTENU BOUTIQUE */
+
+/* fond image */
+
+.theme-dark .itemBackground-1jfD8p:before {
+    background: radial-gradient(ellipse at top,rgba(54,57,63,0),var(--couleur-gris-foncer-0-6)),linear-gradient(90deg,var(--couleur-gris-foncer-0-6) 0,rgba(54,57,63,0) 40%,rgba(54,57,63,0) 60%,var(--couleur-gris-foncer-0-6)),linear-gradient(0deg,var(--couleur-gris-foncer-0-6) 0,rgba(54,57,63,0) 25%)
+}
+.theme-dark .mediaFade-1SdEfL {
+    background: linear-gradient(180deg,transparent 90%,var(--couleur-gris-foncer-0-6))
+}
+.theme-dark .description-3rB3Rp {
+    background: linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,var(--couleur-gris-foncer-0-8))
+}
+/* fond jeux */
+.theme-dark .applicationTile-1Goy1W {
+    background-color: var(--couleur-theme-0-5);
+}
+.theme-dark .tag-HanR-9, .theme-light .tag-HanR-9 {
+    background-image: linear-gradient(90deg,var(--couleur-theme-0-75),var(--couleur-theme-0-75));
+}
+.theme-dark .tag-HanR-9:before, .theme-light .tag-HanR-9:before {
+    background-image: none;
+}
+.theme-dark .premium-39U29H {
+    background-image: linear-gradient(90deg,var(--couleur-theme-fondu),var(--couleur-theme))
+}
+.theme-dark .applicationStore-1pNvnv .footer-3oZnEF {
+    background: none;
+    height: 80px;
+}
+.wrapper-129saQ {
+    background-color: var(--couleur-theme-0-25);
+}
+.wrapper-129saQ:hover {
+    background-color: var(--couleur-theme-0-75);
+}
+.theme-dark .overlappingBorder-1ysb12 {
+    border-color: var(--couleur-theme);
+}
+
+/* couleur texte */
+.theme-dark .tagline-1VBVLz, .theme-dark .originalAmount-3RtnBh, .theme-dark .footerMain-Z8i6ST, .theme-dark .noMatchesDescription-1jZ4Wi, .theme-dark .announcingNitro-3Ptg6m:hover {
+    color: var(--couleur-blanc-0-75);
+}
+.theme-dark .footerSub-1Jedbi {
+    color: var(--couleur-blanc-0-5);
+}
+.theme-dark .announcingNitro-3Ptg6m {
+    color: var(--couleur-blanc);
+}
+/* bouton en savoir plus */
+.theme-dark .learnMoreButton-1OUyxs, .theme-light .learnMoreButton-1OUyxs {
+    background-color: var(--couleur-blanc);
+    color: var(--couleur-theme);
+}
+/* fleche */
+.theme-dark .arrow-1QsYio {
+    background-color: var(--couleur-blanc);
+    color: var(--couleur-theme);
+}
+
+/* jeux nitro rechercher */
+
+.theme-dark .searchBox-3Y2Vi7 {
+    background-color: var(--couleur-theme-0-5);
+}
+
+/* icone windows */
+
+.theme-dark .purchaseUnitOperatingSystem-cnbJPz, .theme-light .purchaseUnitOperatingSystem-cnbJPz {
+    color: var(--couleur-theme);
+}
+
+/* fond rechercher */
+
+.theme-dark .libraryFilterInput-3JzqZD, .theme-dark .browseSearchInput-Jt8kg0 {
+    background-color: var(--couleur-gris-foncer);
+}
+
+
 
 /* CONTENU LISTE MEMBRES */
 
@@ -1777,6 +1889,56 @@ color: var(--couleur-blanc-0-75);
 	background-color: var(--couleur-theme-0-25);
 }
 
+/* CONTENU BIBLIO */
+
+/* couleur bouton jouer */
+
+.rowWrapperActive-2L7i9f .row-1Lmx44 .playButton-1fMNjH {
+    background-color: var(--couleur-theme-0-75);
+}
+
+/* couleur fond jeux sélectionner */
+
+.theme-dark .rowWrapperActive-2L7i9f {
+    background-color: var(--couleur-theme-0-25);
+}
+
+/* CONTENU GIFT */
+
+.theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL) {
+    background-color: var(--couleur-theme-0-75);
+}
+.gameLibrary-TTDw4Y .flexChild-faoVW3 .notSelected-1N1G5p {
+    color: var(--couleur-blanc-0-75) !important;
+}
+
+/* CONTENU BOUTIQUE */
+
+/* fond jeux */
+
+.theme-dark .applicationTile-1Goy1W:hover {
+    background-color: var(--couleur-theme-0-75);
+}
+.theme-dark .popout-2xBvMR {
+    background-color: var(--couleur-theme);
+}
+.theme-dark .iconCircle-1dlYo0 {
+    background-color: var(--couleur-theme);
+}
+.theme-dark .popoutSocialInfo-1qhqSY {
+    border-color: var(--couleur-gris-foncer-0-6);
+}
+.theme-dark .smallHeader-2h-9-U, .theme-dark .description-2Ifi6N {
+    color: var(--couleur-blanc-0-75);
+}
+/* bouton en savoir plus */
+.theme-dark .lookInverted-2D7oAl.hoverGrey-2CBXu0.hasHover-3X1-zV:hover {
+    background-color: var(--couleur-blanc-0-75);
+    color: var(--couleur-theme-0-75);
+}
+
+
+
 /* CONTENU POPOUT */
 
 /* popout serveur */
@@ -2006,18 +2168,24 @@ color: var(--couleur-blanc-0-75);
 
 /* Popout recherche channel... */
 
-.theme-dark .searchPopout-1vUlP3 {
+/*.theme-dark .searchPopout-1vUlP3*/.theme-dark .container-3ayLPN {
 	background-color: var(--couleur-gris-foncer);
 	border: 1px solid transparent;
 }
-.theme-dark .resultsGroup-2qzvNj .header-1pJ5N1, .theme-dark .searchOption-vKNX73 .filter-3kZ3tT, .theme-dark .option-1MvVr1 .nonText-1oayCI {
+.theme-dark .resultsGroup-2qzvNj .header-1pJ5N1, .theme-dark .searchOption-vKNX73 .filter-3kZ3tT, .theme-dark .option-1MvVr1 .nonText-1oayCI, .theme-dark .searchOption-zQ-1l6 .filter-3Y_im-, .theme-dark .resultsGroup-r_nuzN .header-2N-gMV {
 	color: var(--couleur-blanc);
 }
 .theme-dark .searchOption-zQ-1l6 .answer-1n6g43{
 	color: var(--couleur-blanc-0-75);
 }
-.theme-dark .option-96V44q.selected-rZcOL- {
+.theme-dark .option-96V44q.selected-rZcOL-, .theme-dark .focused-2bY0OD {
 	background-color: var(--couleur-theme-0-5);
+}
+.theme-dark .option-96V44q:hover:after, .theme-dark .option-96V44q:after {
+    background: transparent !important;
+}
+.theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
+    background-color: var(--couleur-theme-0-5);
 }
 
 .theme-dark .search-results-wrap {
