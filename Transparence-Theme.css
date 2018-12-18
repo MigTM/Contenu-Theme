@@ -64,7 +64,13 @@
 /* Tranparence headerbar amis */
 
 .theme-dark .headerBar-UHpsPw {
-	background-color: rgba(0,0,0,0.3) !important;
+	background-color: rgba(0,0,0,0.55) !important;
+}
+
+/* Transparence hearder boutique... */
+
+.theme-dark .headerBar-UHpsPw .gameLibrary-TTDw4Y, .theme-dark .headerBar-UHpsPw .homeWrapper-3-Wh5T, .theme-dark .headerBar-UHpsPw #friends{
+	background-color: rgba(0,0,0,0.1) !important;
 }
 
 /* Tranparence biblio */
@@ -143,7 +149,7 @@
 /* Transparence barre du dessus avec logo... */
 
 .titleBar-AC4pGV {
-	background-color: rgba(0,0,0,0.7) !important;
+	background-color: rgba(0,0,0,0.635) !important;
 }
 
 /* Transparence barre recherche */
