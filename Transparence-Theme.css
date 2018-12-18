@@ -69,7 +69,7 @@
 
 /* Transparence hearder boutique... */
 
-.theme-dark .headerBar-UHpsPw .gameLibrary-TTDw4Y, .theme-dark .headerBar-UHpsPw .homeWrapper-3-Wh5T, .theme-dark .headerBar-UHpsPw #friends{
+.theme-dark .gameLibrary-TTDw4Y .headerBar-UHpsPw , .theme-dark .homeWrapper-3-Wh5T .headerBar-UHpsPw , .theme-dark #friends .headerBar-UHpsPw  {
 	background-color: rgba(0,0,0,0.1) !important;
 }
 
