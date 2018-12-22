@@ -64,7 +64,7 @@
 /* Tranparence headerbar amis */
 
 .theme-dark .headerBar-UHpsPw {
-    background-color: rgba(0,0,0,0.55) !important;
+    background-color: rgba(0,0,0,0.6) !important;
 }
 
 /* Transparence hearder boutique... */
@@ -112,7 +112,7 @@
     background-color: transparent;
 }
 .theme-dark .wrapper-29NfPK {
-    background-color: rgba(0,0,0,0.35);
+    background-color: rgba(0,0,0,0.58);
 }
 .theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
     background-color: var(--couleur-gris-foncer-0-6);
@@ -120,6 +120,9 @@
 }
 .theme-dark .quickSelectPopout-X1hvgV {
     background: var(--couleur-gris-foncer-0-6);
+}
+.theme-dark .titleCall-_b9o8P {
+    background-color: rgba(0,0,0,0.08) !important;
 }
 /* Tranparence menu quitter appel... */
 .theme-dark .private-channel-call.minimum .private-channel-call-actions .center {
