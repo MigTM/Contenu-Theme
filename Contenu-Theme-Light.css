@@ -1992,11 +1992,47 @@ color: var(--couleur-blanc-0-75);
 .lookFilled-luDKDo.colorRed-3HTNPV:hover {
 	background-color: var(--couleur-rouge-0-75);
 }
-
-
-
-
-
+.theme-dark .quickSelectPopoutOption-opKBx9:hover {
+    background-color: var(--couleur-theme-0-5);
+}
+.check-2by_h9 {
+    background: url("https://puu.sh/ClMQI/e85cc38c8e.png");
+}
+.theme-dark .footer-2VgWkh {
+    background-color: transparent;
+}
+.callAvatar-v-u4BM.voice-2D-tt_ .callAvatarStatus-3y6S04 {
+    background-color: var(--couleur-rouge);
+}
+.theme-dark .callAvatar-v-u4BM.voice-2D-tt_ .callAvatarStatus-3y6S04 {
+    border-color: var(--couleur-gris-foncer-0-6);
+}
+.theme-dark .tiles-2aXG_k {
+    background-color: var(--couleur-theme-0-25);
+    box-shadow: 0 2px 5px transparent, 0 0 0 1px var(--couleur-gris-foncer)
+}
+.theme-dark .item-3T2z1R {
+    border-color: var(--couleur-gris-foncer);
+}
+.selectorButtonSelected-1j4DmC {
+    background-color: var(--couleur-theme);
+}
+.selectorNitroIcon-2rQO-z path {
+    fill:var(--couleur-theme);
+}
+.theme-dark .tile-2QWaFv, .theme-dark .container-OI6I9q {
+    color: var(--couleur-blanc-0-75);
+}
+.imageSelected-4Kl81J {
+    border: 4px solid var(--couleur-theme);
+}
+.callAvatarBorder-1D_KaE.video-3GgX2M.selected-2esnyn:not(.speaking-oCqYMI):not(.soundsharing-102bS9) {
+    box-shadow: inset 0 0 0 2px var(--couleur-theme);
+}
+.wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .center-1Vp33r, .wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .side-kO0bwV, .wrapper-29NfPK.noChat-2qlG4B .center-1Vp33r, .wrapper-29NfPK.noChat-2qlG4B .side-kO0bwV, .wrapper-29NfPK.normal-2GSW0u .center-1Vp33r, .wrapper-29NfPK.normal-2GSW0u .side-kO0bwV {
+    background-color: var(--couleur-gris-foncer-0-6);
+    border-color: transparent;
+}
 
 
 
