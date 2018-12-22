@@ -2033,7 +2033,9 @@ color: var(--couleur-blanc-0-75);
     background-color: var(--couleur-gris-foncer-0-6);
     border-color: transparent;
 }
-
+.theme-dark .video-1FfuMD.noChat-3nt48u .videoTop-eOkSPq, .theme-dark .video-1FfuMD.normal-1jW0uq .videoTop-eOkSPq {
+	background-image: none;
+}
 
 
 
