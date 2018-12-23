@@ -318,6 +318,11 @@
     background-color: var(--couleur-theme-0-5);
     color: var(--couleur-blanc);
 }
+.theme-dark .hasMore-3e72_v button {
+    background: var(--couleur-theme-0-75);
+    color: var(--couleur-blanc);
+    border: 1px solid var(--couleur-theme);
+}
 
 /* Mentions channel */
 .theme-dark .message-group .comment .markup .mention {
