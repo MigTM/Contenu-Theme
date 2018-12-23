@@ -1,0 +1,169 @@
+/* Transparence toute l'app */
+
+.appMount-3VJmYg, .container-2lgZY8, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
+    background-color: rgba(0,0,0,0.05);
+}
+
+/* Transparence notif plugins mise a jour et notif mode streamer */
+
+.noticeInfo-3v29SJ, .noticeStreamerMode-1OlfKV {
+    background-color: rgba(0,0,0,0.65) !important;
+}
+
+/* Transparence liste serveur */
+
+.theme-dark .guildsWrapper-5TJh6A {
+    background-color: rgba(0,0,0,0.6) !important;
+}
+
+/* Transparence logo/speudo bouton paramètre... en bas a gauche */
+.container-iksrDt {
+    background-color: transparent !important;
+}
+/* Transparence liste channel */
+.channels-Ie2l6A {
+    background-color: rgba(0,0,0,0.55) !important;
+}
+.container-2Thooq, .container-PNkimc {
+    background-color: transparent !important;
+}
+/* Transparence appel channel vocal */
+.container-1UB9sr {
+    background-color: transparent !important;
+    border-bottom: 1px solid transparent !important;
+}
+
+/* Transparence Chat et Liste membre */
+.theme-dark .chat-3bRxxu {
+    background-color: transparent !important;
+}
+.theme-dark .content-yTz4x3 {
+    background-color: rgba(0,0,0,0.5) !important;
+}
+.theme-dark .members-1998pB {
+    background-color: rgba(0,0,0,0.1) !important;
+}
+/* Transparence nom channel */
+.theme-dark .title-3qD0b- {
+    background-color: rgba(0,0,0,0.6) !important;
+}
+/* Transparence chat */
+.theme-dark .friends-table, .theme-dark .messagesWrapper-3lZDfY, .theme-dark .chat-3bRxxu form {
+    background-color: transparent !important;
+}
+/* Transparence liste membre */
+.theme-dark .members-1bid1J {
+    background-color: rgba(0,0,0,0.1) !important;
+}
+
+/* Transparence liste amis */
+.theme-dark #friends, #friends {
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+/* Tranparence headerbar amis */
+
+.theme-dark .headerBar-UHpsPw {
+    background-color: rgba(0,0,0,0.59) !important;
+}
+
+/* Transparence hearder boutique... */
+
+.theme-dark .gameLibrary-TTDw4Y .headerBar-UHpsPw , .theme-dark .homeWrapper-3-Wh5T .headerBar-UHpsPw , .theme-dark #friends .headerBar-UHpsPw{
+    background-color: rgba(0,0,0,0.1) !important;
+}
+
+/* Tranparence biblio */
+
+.theme-dark .gameLibrary-TTDw4Y {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+.theme-dark .header-39GIC8 {
+  background-color: transparent !important;
+}
+
+/* transparence gift invetory */
+
+.theme-dark .root-1BQpZw {
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+/* transparence boutique */
+
+.theme-dark .applicationStore-1pNvnv {
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+/* Transparence menu paramètre */
+.theme-dark .standardSidebarView-3F1I7i {
+    background-color: transparent !important;
+}
+/* Transparence liste menu */
+.theme-dark .sidebarRegion-VFTUkN {
+    background-color: rgba(0,0,0,0.6) !important;
+}
+/* Transparence menu gauche */
+.theme-dark .contentRegion-3nDuYy {
+    background-color: rgba(0,0,0,0.55) !important;
+}
+
+/* Transparence menu appel privé */
+.video-1FfuMD, .video-1kutKI {
+    background-color: transparent;
+}
+.theme-dark .wrapper-29NfPK {
+    background-color: rgba(0,0,0,0.57);
+}
+.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
+    background-color: var(--couleur-gris-foncer-0-6);
+    border-color: transparent;
+}
+.theme-dark .quickSelectPopout-X1hvgV {
+    background: var(--couleur-gris-foncer-0-6);
+}
+.theme-dark .titleCall-_b9o8P {
+    background-color: rgba(0,0,0,0.07) !important;
+}
+/* Tranparence menu quitter appel... */
+.theme-dark .private-channel-call.minimum .private-channel-call-actions .center {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.titleCall-3X0yGQ {
+    background-color: rgba(0,0,0,0.1) !important;
+}
+
+/* Transparence inviter personne */
+.wrapper-VSYYTS {
+    background-color: transparent;
+}
+.form-deprecated .form-header, .form.deprecated .form-header, .form-deprecated .form-inner, .form.deprecated .form-inner, .wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions, .wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions {
+    background-color: var(--couleur-theme-0-5)
+}
+.theme-dark .footer-1PYmcw, .theme-dark .footer-2yfCgX {
+    background-color: transparent;
+}
+
+/* Transparence créer un salon textuel */
+
+.theme-dark .modal-3HOjGZ, .theme-dark .modal-3HD5ck {
+    background-color: var(--couleur-theme-0-5);
+}
+
+/* Barre est entrain de écrire */
+
+.theme-dark .typing-2GQL18 {
+    background-color: transparent !important;
+}
+
+/* Transparence barre du dessus avec logo... */
+
+.titleBar-AC4pGV {
+    background-color: rgba(0,0,0,0.7) !important;
+}
+
+/* Transparence barre recherche */
+
+.theme-dark .search .search-bar {
+    background-color: rgba(0,0,0,0.2);
+}    
