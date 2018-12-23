@@ -1,4 +1,41 @@
 
+
+/* liste gens a droite */
+
+
+
+
+.username-MwOsla { font-size: 14px !important; }
+
+.activity-1PAe08 strong { color: var(--couleur-theme); }
+
+.memberOnline-1xn3V8 { margin-top: 2px !important;  }
+
+
+.theme-dark .member-2FrNV0:hover .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq { animation:tab-MembreEtChannel 1.5s infinite,FColorMembreEtChannel 1.5s infinite  }
+
+
+
+.theme-dark .status-2Devx1, .theme-dark .member-2FrNV0.popout-open .content-3JzEqq .status-2Devx1, .theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq .status-2Devx1 { border-color: rgba(0, 0, 0, 0.22); }
+.avatar-1BXaQj .mask-2vyqAW:hover { transform: rotateZ(360deg);    -webkit-transition:all .9s ease-in-out,transform .9s ease-in-out;
+    transition:all .19s ease-in-out,transform .9s ease-in-out;  }
+
+@-webkit-keyframes FColorMembreEtChannel{0%,100%{background-color: var(--couleur-theme-0-5); border-radius: 5px 5px;}50%{background-color: var(--couleur-theme-0-5); border-radius: 5px 5px;}}@keyframes tab-MembreEtChannel{0%{box-shadow:0 0 0 0 var(--couleur-theme-0-5)}70%{box-shadow:0 0 10px 10px rgba(241,71,71,0)}to{box-shadow:0 0 0 0 rgba(241,71,71,0)}
+
+
+
+  
+
+
+
+
+
+
+
+.theme-dark .status-2Devx1:hover { border-color: rgba(0, 0, 0, 0.22) }
+
+
+
 /* contenu maj lol */
 .bda-dark .emoji-picker, .bda-dark .emojiPicker-3g68GS { background-color: rgba(0,0,0,0.7)!important; }
 
