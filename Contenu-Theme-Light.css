@@ -519,8 +519,8 @@
 
 /* Bouton ajouter un amis */
 
-.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
-    background-color: var(--couleur-theme-0-5);
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary, .tabBar-1E2ExX .primary-3j8BhM {
+    background-color: var(--couleur-theme-0-5) !important;
 }
 
 /* bouton selectionner tous... */
@@ -2171,14 +2171,17 @@ color: var(--couleur-blanc-0-75);
 .theme-dark #friends .friends-table .friends-row:hover {
     background-color: var(--couleur-theme-0-75);
 }
-.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action-voice-call, .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action-video-call {
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action-voice-call, .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action-video-call, .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
     background-color: var(--couleur-theme-0-5);
 }
-.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action-voice-call:hover, .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action-video-call:hover {
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action-voice-call:hover, .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action-video-call:hover, .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:hover {
     background-color: var(--couleur-theme-0-75);
 }
-.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action-remove {
-    background-color: var(--couleur-rouge);
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action-remove, .da-friendsActionRemove {
+    background-color: var(--couleur-rouge-0-5) !important;
+}
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionRemove-qu8nnl:hover {
+    background-color: var(--couleur-rouge-0-75) !important;
 }
 #friends .friends-table .friends-table-header .friends-column-separator {
     margin: 0  44px;
@@ -2506,8 +2509,11 @@ color: var(--couleur-blanc-0-75);
     background-color: transparent !important;
     border-color: transparent !important;
 }
-.search-bar-light .searchBarInner-1_Tg2R {
+.search-bar-light .searchBarInner-1_Tg2R, .searchBar-2_Yu-C .searchBarInner-1_Tg2R {
   background-color: var(--couleur-theme-0-25);
+}
+.searchBar-2_Yu-C {
+    background-color: transparent;
 }
 
 /* CONTENU CHAT */
