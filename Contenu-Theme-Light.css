@@ -2194,6 +2194,9 @@ color: var(--couleur-blanc-0-75);
 #friends .friends-table .friends-column-guilds {
     margin-left: -15px;
 }
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover {
+    background-color: var(--couleur-theme-0-25);
+}
 /* bouton ajouter un amis */
 
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
