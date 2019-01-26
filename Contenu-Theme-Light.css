@@ -421,6 +421,29 @@
 .scrollerThemed-19vinI.themeGhostHairlineChannels-2lQojW .scroller-fzNley::-webkit-scrollbar-thumb {
     background-color: var(--couleur-theme);
 }
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    background-color: var(--couleur-gris-foncer);
+
+    border: none;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--couleur-theme) !important;
+    border: 3px solid var(--couleur-theme) !important;
+}
+.scroller-2FKFPG::-webkit-scrollbar {
+    width: 10px;
+}
+/**/
+.theme-dark .mobileIndicatorPrimary-2viufb {
+    color: white;
+}
+.theme-dark .mobileIndicator-329Gd6, .theme-dark .mobileIndicator-32N6Qx {
+    color: white;
+}
+
+.nameDefault-2s3kbY {
+     color: red !important;
+}
 
 /* Icone mentions channel */
 
@@ -1810,6 +1833,16 @@
     background-color: var(--couleur-theme-0-75);
 }
 
+.searchBar-2_Yu-C.searchBarLight-1NxoDG {
+    background-color: transparent;
+}
+.searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
+    background-color: var(--couleur-theme-0-25);
+}
+.searchBar-2_Yu-C.searchBarLight-1NxoDG input {
+    color: var(--couleur-blanc);
+}
+
 /* Invitations */
 .theme-dark .custom-header .primary-2giqSn, .formText-1L-zZB a {
     color: var(--couleur-theme-0-75) !important;
@@ -2636,28 +2669,31 @@ color: var(--couleur-blanc-0-75);
 
 /* CONTENU INFO MINI POPOUT ( NOM SERVEUR... ) */
 
-.bd-blue .tooltip {
+.tooltip-1OS-Ti.black-2bmmnj {
     background-color: var(--couleur-theme) !important;
 }
-.tooltip {
+.tooltip-1OS-Ti {
     font-size: 14px;
     border-radius: 3px;
     padding: 5px 10px;
     color: #fff;
     font-weight: 600;
 }
-.bd-blue .tooltip.tooltip-right:after {
+.tooltip-1OS-Ti.black-2bmmnj.right-KM_vfY:after {
     border-right-color: var(--couleur-theme) !important;
 }
-.bd-blue .tooltip.tooltip-top:after {
+.tooltip-1OS-Ti.black-2bmmnj.top-1pTh1F:after {
     border-top-color: var(--couleur-theme) !important;
 }
-.bd-blue .tooltip.tooltip-bottom:after {
+.tooltip-1OS-Ti.black-2bmmnj.bottom-19kp6S:after {
     border-bottom-color: var(--couleur-theme) !important;
 }
 .bd-blue .tooltip.tooltip-left:after {
     border-left-color: var(--couleur-theme) !important;
 }
+
+
+
 
 /* PARAMETES SERVEUR */
 
