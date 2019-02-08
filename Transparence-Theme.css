@@ -1,6 +1,6 @@
 /* Transparence toute l'app */
 
-.appMount-3VJmYg, .container-2lgZY8, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
+.appMount-3VJmYg, .container-2lgZY8, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .appMount-3lHmkl {
     background-color: transparent !important;
 }
 
@@ -57,7 +57,7 @@
 }
 
 /* Transparence liste amis */
-.theme-dark #friends, #friends {
+.theme-dark #friends, #friends, .theme-dark .container-3gCOGc {
     background-color: rgba(0,0,0,0.5) !important;
 }
 
@@ -69,7 +69,7 @@
 
 /* Transparence hearder boutique... */
 
-.theme-dark .gameLibrary-TTDw4Y .headerBar-UHpsPw , .theme-dark .homeWrapper-3-Wh5T .headerBar-UHpsPw , .theme-dark #friends .headerBar-UHpsPw{
+.theme-dark .gameLibrary-TTDw4Y .headerBar-UHpsPw , .theme-dark .homeWrapper-3-Wh5T .headerBar-UHpsPw , .theme-dark #friends .headerBar-UHpsPw, .theme-dark .container-3gCOGc .headerBar-UHpsPw{
     background-color: rgba(0,0,0,0.1) !important;
 }
 
@@ -159,7 +159,7 @@
 /* Transparence barre du dessus avec logo... */
 
 .titleBar-AC4pGV {
-    background-color: rgba(0,0,0,0.635) !important;
+    background-color: rgba(0,0,0,0.7) !important;
 }
 
 /* Transparence barre recherche */
