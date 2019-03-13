@@ -12,8 +12,11 @@
 
 /* Transparence liste serveur */
 
-.theme-dark .guildsWrapper-5TJh6A {
+.theme-dark .guildsWrapper-5TJh6A, .theme-dark .wrapper-1Rf91z {
     background-color: rgba(0,0,0,0.6) !important;
+}
+.theme-dark .wrapper-2lTRaf {
+    background-color: transparent !important;
 }
 
 /* Transparence logo/speudo bouton paramètre... en bas a gauche */
