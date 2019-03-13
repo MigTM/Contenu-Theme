@@ -441,9 +441,6 @@
     color: white;
 }
 
-/* .nameDefault-2s3kbY {
-     color: red !important;
-} */
 
 /* Icone mentions channel */
 
@@ -820,25 +817,28 @@
 }
 
 /* Icone créations serveur */
-.theme-dark .guildsAdd-21_IdK::before{
+.plus-3UqSQu {
+    color: transparent;
+}
+.theme-dark .plus-3UqSQu::before{
     content:"";background-color:#333539;position:absolute;left:47%;top:24%;height:50%;width:2px;border-radius:3px;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out
 }
-.theme-dark .guildsAdd-21_IdK::after{
-    content:"";background-color:#333539;position:absolute;left:24%;top:47%;height:2px;width:50%;border-radius:3px;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out
+.theme-dark .plus-3UqSQu::after{
+    content:"";background-color:#333539;position:absolute;left:0%;top:47%;height:2px;width:100%;border-radius:3px;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out
 }
-.bd-minimal .theme-dark .guildsAdd-21_IdK::before{
+.theme-dark .circleIconButton-jET_ig::before{
     height:10px
 }
-.bd-minimal .theme-dark .guildsAdd-21_IdK::after{
+.theme-dark .circleIconButton-jET_ig::after{
     width:10px
 }
-.theme-dark .guildsAdd-21_IdK:hover::before,.theme-dark .guildsAdd-21_IdK:hover::after{
-    background-color:var(--main-color)!important;-webkit-animation:pulsate-color 2s infinite ease-in-out;animation:pulsate-color 2s infinite ease-in-out}@-webkit-keyframes pulsate-color{0%,100%{background-color:#333539}50%{background-color:currentcolor}}@keyframes pulsate-color{0%,100%{background-color:#333539}50%{background-color:currentcolor}}@-webkit-keyframes pulsate-border{0%,100%{border-color:#535559}50%{border-color:currentcolor}}@keyframes pulsate-border{0%,100%{border-color:#535559}50%{border-color:currentcolor}
+.theme-dark .circleIconButton-jET_ig:hover .plus-3UqSQu::before,.theme-dark  .circleIconButton-jET_ig:hover .plus-3UqSQu::after{
+    background-color:var(--main-color)!important;-webkit-animation:pulsate-color 2s infinite ease-in-out;animation:pulsate-color 2s infinite ease-in-out}@-webkit-keyframes pulsate-color{0%,100%{background-color:#333539}50%{background-color:var(--main-color)}}@keyframes pulsate-color{0%,100%{background-color:#333539}50%{background-color:var(--main-color)}}@-webkit-keyframes pulsate-border{0%,100%{border-color:#535559}50%{border-color:var(--main-color)}}@keyframes pulsate-border{0%,100%{border-color:#535559}50%{border-color:var(--main-color)}
 }
-.theme-dark .guildsAdd-21_IdK{
+.theme-dark .circleIconButton-jET_ig{
     color:transparent;background-image:none;background-size:20px 20px;background-repeat:no-repeat;background-position:center;background-color:rgba(21,21,21,0.41);font-size:0;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out;opacity:.7
 }
-.theme-dark .guildsAdd-21_IdK:hover{
+.theme-dark .circleIconButton-jET_ig:hover{
     color:var(--main-color);border-color:var(--main-color);-webkit-animation:pulsate-border 2s infinite ease-in-out;animation:pulsate-border 2s infinite ease-in-out
 }
 
