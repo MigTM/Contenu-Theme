@@ -478,6 +478,30 @@
         animation: load8 2.8s infinite linear;
     opacity: .5;
 }
+
+/* CONTENU ACTIVITE */
+
+.theme-dark .recentlyPlayedContainer-2F3MqS {
+    background-color: transparent;
+}
+.theme-dark .outer-2IVh5n, .theme-dark .popout-3G62UL, .theme-dark .multipleIconWrapper-2TXVB4, .theme-dark .section-3TvauS, .theme-dark .tile-QA_yMc {
+    background-color: var(--couleur-gris-foncer-0-8);
+}
+
+.theme-dark .outer-2IVh5n.interactive-1BeKSi:hover, .theme-dark .popoutContainer-3WC9HR:hover, .theme-dark .tile-QA_yMc:hover {
+    background-color: var(--couleur-gris-foncer-1);
+}
+.coloredBackground-37Z6Gv {
+    background:  no-repeat 100% 0,linear-gradient(270.22deg,var(--couleur-theme) .09%,var(--couleur-theme-fondu) 99.55%);
+}
+.theme-dark .whiteButton-1lwF-y {
+    color: var(--couleur-theme);
+}
+
+.activityFeed-1C0EmJ ::-webkit-scrollbar-thumb {
+    border: 3px solid transparent !important;
+}
+
 /* CONTENU MESSAGE PRIVES */
 
 /* Amis selectionner */
