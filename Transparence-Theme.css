@@ -59,6 +59,11 @@
     background-color: rgba(0,0,0,0.1) !important;
 }
 
+/* Transparence activité */
+.theme-dark .activityFeed-1C0EmJ {
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
 /* Transparence liste amis */
 .theme-dark #friends, #friends, .theme-dark .container-3gCOGc {
     background-color: rgba(0,0,0,0.5) !important;
