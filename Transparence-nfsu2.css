@@ -12,7 +12,7 @@
 
 /* Transparence liste serveur */
 
-.theme-dark .guildsWrapper-5TJh6A , .theme-dark .wrapper-1Rf91z {
+.theme-dark .guildsWrapper-5TJh6A, .theme-dark .wrapper-1Rf91z {
     background-color: rgba(0,0,0,0.6) !important;
 }
 .theme-dark .wrapper-2lTRaf {
@@ -61,6 +61,11 @@
 
 /* Transparence liste amis */
 .theme-dark #friends, #friends, .theme-dark .container-3gCOGc {
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+/* Transparence activité */
+.theme-dark .activityFeed-1C0EmJ {
     background-color: rgba(0,0,0,0.5) !important;
 }
 
@@ -170,4 +175,3 @@
 .theme-dark .search .search-bar {
     background-color: rgba(0,0,0,0.2);
 }    
-
