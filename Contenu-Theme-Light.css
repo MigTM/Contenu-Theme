@@ -46,7 +46,7 @@
     background-color: transparent;
 }
 
-.icon-22AiRD, .theme-dark .topic-TCb_qw {
+.icon-22AiRD, .theme-dark .topic-TCb_qw, .theme-dark .nicknames-1XK4Zt, .theme-dark .akaBadge-1M-1Gw {
     color: var(--couleur-theme-0-75) !important;
 }
 .icon-22AiRD:hover, .theme-dark .base-1x0h_U {
@@ -1502,6 +1502,10 @@
     background-color: var(--couleur-theme-0-75) !important;
     color: var(--couleur-blanc) !important;
 }
+ .theme-dark .tabBar-2MuP6- .item-PXvHYJ:hover {
+    background-color: transparent !important;
+    color: var(--couleur-theme) !important;
+}
 .theme-dark .themed-OHr7kt.item-PXvHYJ {
     color: var(--couleur-theme);
 }
@@ -1605,6 +1609,10 @@
 }
 .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
     background-color: var(--couleur-theme-0-5);
+}
+
+.theme-dark .root-SR8cQa .note-QfFU8y textarea:focus {
+    background-color: var(--couleur-theme-0-25);
 }
 
 /* couleur fond image nitro */
