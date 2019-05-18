@@ -1,7 +1,7 @@
 /* Transparence toute l'app */
 
 .appMount-3VJmYg, .container-2lgZY8, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .appMount-3lHmkl {
-    background-color: transparent !important;
+    background-color: rgba(0,0,0,0.05);
 }
 
 /* Transparence notif plugins mise a jour et notif mode streamer */
@@ -46,6 +46,13 @@
 .theme-dark .members-1998pB {
     background-color: rgba(0,0,0,0.1) !important;
 }
+
+/* Transparence hearder boutique... */
+
+.theme-dark .gameLibrary-TTDw4Y .headerBar-UHpsPw , .theme-dark .homeWrapper-3-Wh5T .headerBar-UHpsPw , .theme-dark #friends .headerBar-UHpsPw, .theme-dark .container-3gCOGc .headerBar-UHpsPw, .theme-dark .container-1r6BKw{
+    background-color: rgba(0,0,0,0.1) !important;
+}
+
 /* Transparence nom channel */
 .theme-dark .title-3qD0b- {
     background-color: rgba(0,0,0,0.6) !important;
@@ -59,13 +66,13 @@
     background-color: rgba(0,0,0,0.1) !important;
 }
 
-/* Transparence activité */
-.theme-dark .activityFeed-1C0EmJ {
+/* Transparence liste amis */
+.theme-dark #friends, #friends, .theme-dark .container-3gCOGc {
     background-color: rgba(0,0,0,0.5) !important;
 }
 
-/* Transparence liste amis */
-.theme-dark #friends, #friends, .theme-dark .container-3gCOGc {
+/* Transparence activité */
+.theme-dark .activityFeed-1C0EmJ {
     background-color: rgba(0,0,0,0.5) !important;
 }
 
@@ -73,12 +80,6 @@
 
 .theme-dark .headerBar-UHpsPw {
     background-color: rgba(0,0,0,0.59) !important;
-}
-
-/* Transparence hearder boutique... */
-
-.theme-dark .gameLibrary-TTDw4Y .headerBar-UHpsPw , .theme-dark .homeWrapper-3-Wh5T .headerBar-UHpsPw , .theme-dark #friends .headerBar-UHpsPw, .theme-dark .container-3gCOGc .headerBar-UHpsPw{
-    background-color: rgba(0,0,0,0.1) !important;
 }
 
 /* Tranparence biblio */
@@ -175,3 +176,19 @@
 .theme-dark .search .search-bar {
     background-color: rgba(0,0,0,0.2);
 }    
+
+/* transparence recherche serveur */
+
+.theme-dark .pageWrapper-1PgVDX {
+    background-color: rgba(0,0,0,0.65);
+}
+.da-bg {
+    opacity: 0!important;
+}
+
+
+/* transparence nom channel */
+
+.theme-dark .noChannel-Z1DQK7 {
+    background-color: rgba(0,0,0,0.52);
+}
