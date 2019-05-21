@@ -1528,6 +1528,9 @@
     color: var(--couleur-blanc) !important;
     background-color: var(--couleur-rouge-0-75) !important;
 }
+.bd-blue *[style*="background-color: rgb(240, 71, 71); width: 16px; padding-right: 1px;"] {
+    color: white !important;
+}
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
     border-color: transparent !important;
     background-color: var(--couleur-theme);
