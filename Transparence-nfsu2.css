@@ -192,3 +192,9 @@
 .theme-dark .noChannel-Z1DQK7 {
     background-color: rgba(0,0,0,0.52);
 }
+
+
+/* transparence pseudo */
+.theme-dark .container-3baos1 {
+    background-color: transparent !important;
+}
