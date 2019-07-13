@@ -12,8 +12,11 @@
 
 /* Transparence liste serveur */
 
-.theme-dark .guildsWrapper-5TJh6A {
+.theme-dark .guildsWrapper-5TJh6A, .theme-dark .wrapper-1Rf91z {
     background-color: rgba(0,0,0,0.6) !important;
+}
+.theme-dark .wrapper-2lTRaf {
+    background-color: transparent !important;
 }
 
 /* Transparence logo/speudo bouton paramètre... en bas a gauche */
@@ -43,6 +46,13 @@
 .theme-dark .members-1998pB {
     background-color: rgba(0,0,0,0.1) !important;
 }
+
+/* Transparence hearder boutique... */
+
+.theme-dark .gameLibrary-TTDw4Y .headerBar-UHpsPw , .theme-dark .homeWrapper-3-Wh5T .headerBar-UHpsPw , .theme-dark #friends .headerBar-UHpsPw, .theme-dark .container-3gCOGc .headerBar-UHpsPw, .theme-dark .container-1r6BKw{
+    background-color: rgba(0,0,0,0.1) !important;
+}
+
 /* Transparence nom channel */
 .theme-dark .title-3qD0b- {
     background-color: rgba(0,0,0,0.6) !important;
@@ -61,16 +71,15 @@
     background-color: rgba(0,0,0,0.5) !important;
 }
 
+/* Transparence activité */
+.theme-dark .activityFeed-1C0EmJ {
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
 /* Tranparence headerbar amis */
 
 .theme-dark .headerBar-UHpsPw {
     background-color: rgba(0,0,0,0.59) !important;
-}
-
-/* Transparence hearder boutique... */
-
-.theme-dark .gameLibrary-TTDw4Y .headerBar-UHpsPw , .theme-dark .homeWrapper-3-Wh5T .headerBar-UHpsPw , .theme-dark #friends .headerBar-UHpsPw, .theme-dark .container-3gCOGc .headerBar-UHpsPw{
-    background-color: rgba(0,0,0,0.1) !important;
 }
 
 /* Tranparence biblio */
@@ -168,3 +177,18 @@
     background-color: rgba(0,0,0,0.2);
 }    
 
+/* transparence recherche serveur */
+
+.theme-dark .pageWrapper-1PgVDX {
+    background-color: rgba(0,0,0,0.65);
+}
+.da-bg {
+    opacity: 0!important;
+}
+
+
+/* transparence nom channel */
+
+.theme-dark .noChannel-Z1DQK7 {
+    background-color: rgba(0,0,0,0.52);
+}
