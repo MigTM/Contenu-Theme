@@ -1,3 +1,40 @@
+/* Contenu reco */
+.image-2jyRAK.loaded-3PtF_J {
+    opacity: 0;
+}
+.canvas-3XuBXe {
+    opacity: 0.95;
+    background-color: var(--couleur-gris-foncer);
+}
+.leftSplit-1qOwnR {
+    width: 100% !important;
+}
+.wrapper-6URcxg {
+    display: flex;
+    justify-content: center;
+}
+.authBox-hW6HRx {
+    background: rgba(54,57,63,.95)
+}
+.theme-dark .input-cIJ7To {
+    background-color: var(--couleur-gris-foncer);
+    color: var(--couleur-theme);
+}
+.needAccount-23l_Wh, .title-jXR8lp, .authBox-hW6HRx a {
+    color: var(--couleur-theme);
+}
+.authBox-hW6HRx a:hover {
+    color: var(--couleur-theme-0-75);
+    text-decoration: none;
+} 
+.subTitle-3TUjmF, .subText-1XkjIB {
+    color: var(--couleur-blanc);
+}
+[style="width: 24px; height: 24px; border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
+    background-color: var(--couleur-theme) !important;
+    border-color: transparent !important;
+}
+
 /* CONTENU EFFET FIX */
 
 /* CONTENU COULEUR ECRITURE ALL */
