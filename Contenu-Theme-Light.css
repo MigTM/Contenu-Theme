@@ -35,6 +35,24 @@
     border-color: transparent !important;
 }
 
+
+.css-181m2lf-menu {
+    background-color: var(--couleur-gris-foncer);
+}
+.css-1gnr91b-option {
+    background-color: var(--couleur-theme-0-75) !important;
+}
+.css-12o7ek3-option {
+    background-color: var(--couleur-theme) !important;
+}
+
+.bda-dark .regionSelectModal-12e-57 {
+    background-color: var(--couleur-theme-0-5);
+}
+.bda-dark .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+    background-color: var(--couleur-theme-0-5);
+    border-color: transparent;
+}
 /* CONTENU EFFET FIX */
 
 /* CONTENU COULEUR ECRITURE ALL */
@@ -60,9 +78,16 @@
 .theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {
     border-color: transparent;
 }
-.theme-dark .searchResult-3pzFAB .hit-NLlWXA {
+.theme-dark .searchResult-3pzFAB .hit-NLlWXA, .theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA {
     background-color: var(--couleur-theme-0-5);
     box-shadow: 0 0 10px 6px var(--couleur-theme-0-5);
+}
+.theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA {
+    border-top-color: var(--couleur-theme-0-5);
+    border-bottom-color: var(--couleur-theme-0-5);
+}
+.theme-dark .searchResult-3pzFAB.expanded-v2Szsz {
+    border-color: var(--couleur-theme-0-5);
 }
 .theme-dark .searchResult-3pzFAB:before, .theme-dark .searchResult-3pzFAB:after {
     background-image: linear-gradient(0deg,rgba(47,49,54,0),var(--couleur-gris-foncer))
@@ -73,6 +98,7 @@
 .theme-dark .searchHeader-1l-wpR, .theme-dark .channelSeparator-1X1FuH .channelName-1QajIf {
     background-color: transparent;
 }
+
 
 /* CONTENU ICONE */
 
@@ -1757,8 +1783,11 @@
 .theme-dark .userPopout-3XzG_A .primary-jw0I4K, .userPopout-3XzG_A .statusGreen-pvYWjA, .theme-dark .subHeader-27gFHC {
     color: var(--couleur-blanc) !important;
 }
-.theme-dark .h5-3KssQU,.theme-dark .rowBody-10yI-R, .theme-dark .bda-slist .bda-description , .theme-dark #bd-settingspane-container .ui-switch-item .style-description, .theme-dark .blurb-2eED2D, .theme-dark .promo-22z1qT, .flexChild-1KGW5q .flex-vertical a, .theme-dark .description-3oaqMl, .theme-dark .user-settings-games .now-playing-add, .theme-dark .user-settings-games .game-name, .theme-dark .content-3KEfmo p, .theme-dark .content-3KEfmo ul li, #bd-settingspane-container .ui-switch-item h3, .bda-slist .bda-header, .theme-dark .header-1-f9X5, .theme-dark .description-3_Ncsb, .theme-dark .labelDescriptor-1PqHgD, .theme-dark .desc-2Dttbk, .theme-dark .primary-jw0I4K, .theme-dark .description-2nQj2E, .theme-dark .promo-1rGOJF, .ghostPill-2-KUPM, .lookLink-9FtZy-.colorLink-35jkBc, .description-3_Ncsb a, .theme-dark .subText-2Zhkkh, .theme-light .subText-2Zhkkh,.theme-dark .subtitle-UfhpvR, .theme-dark .description-1irSAr, .theme-dark .introBlurb-3gFgTQ, .theme-dark .description-1W0DiL, .standardSidebarView-3F1I7i .anchor-3Z-8Bb:hover {
+.theme-dark .h5-3KssQU,.theme-dark .rowBody-10yI-R, .theme-dark .bda-slist .bda-description , .theme-dark #bd-settingspane-container .ui-switch-item .style-description, .theme-dark .blurb-2eED2D, .theme-dark .promo-22z1qT, .flexChild-1KGW5q .flex-vertical a, .theme-dark .description-3oaqMl, .theme-dark .user-settings-games .now-playing-add, .theme-dark .user-settings-games .game-name, .theme-dark .content-3KEfmo p, .theme-dark .content-3KEfmo ul li, #bd-settingspane-container .ui-switch-item h3, .bda-slist .bda-header, .theme-dark .header-1-f9X5, .theme-dark .description-3_Ncsb, .theme-dark .labelDescriptor-1PqHgD, .theme-dark .desc-2Dttbk, .theme-dark .description-2nQj2E, .theme-dark .promo-1rGOJF, .ghostPill-2-KUPM, .lookLink-9FtZy-.colorLink-35jkBc, .description-3_Ncsb a, .theme-dark .subText-2Zhkkh, .theme-light .subText-2Zhkkh,.theme-dark .subtitle-UfhpvR, .theme-dark .description-1irSAr, .theme-dark .introBlurb-3gFgTQ, .theme-dark .description-1W0DiL, .standardSidebarView-3F1I7i .anchor-3Z-8Bb:hover {
     color: var(--couleur-theme-0-75);
+}
+.subtitle-2yP_Eh {
+    opacity: 0.8;
 }
 .theme-dark .description-3MVziF, .theme-dark .primary-2giqSn, .lookLink-3VWONr.colorLink-Ttelix, .theme-dark .user-settings-games .last-played, .theme-dark .user-settings-games .overlay-status-text, #bd-settingspane-container .ui-switch-item .style-description, .bda-slist .bda-description,  .theme-dark .yearlyNote-3CCz_7 {
     color: var(--couleur-theme-0-5);
