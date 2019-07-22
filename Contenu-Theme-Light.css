@@ -73,6 +73,27 @@
     color: var(--couleur-blanc) !important;
 }
 
+.theme-dark .member-3W1lQa:hover{
+    background-color: var(--couleur-theme-0-75);
+}
+.theme-dark .member-3W1lQa.popout-open:hover  {
+    background-color: var(--couleur-theme-0-5);
+}
+.theme-dark .member-3W1lQa.popout-open {
+    background-color: var(--couleur-theme-0-25);
+}
+
+.bda-dark .emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_, .theme-dark .container-cMG81i, .theme-dark .option-1l2vXE {
+    background-color: var(--couleur-theme-0-25);
+}
+
+.css-1wqqa50-container {
+    background-color: var(--couleur-theme);
+}
+.css-1rckt42-menu {
+     background-color: var(--couleur-theme-0-5);
+}
+
 /* recherche global */
 
 .theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {
