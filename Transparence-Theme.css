@@ -198,3 +198,9 @@
 .theme-dark .container-3baos1 {
     background-color: transparent !important;
 }
+
+/* transparence recherche global */ 
+
+.theme-dark .searchResultsWrap-2DKFzt {
+    background-color: rgba(0,0,0,0.05);
+}
