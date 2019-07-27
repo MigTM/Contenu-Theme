@@ -1230,7 +1230,33 @@ body,p,h1,h2,h3,h4,h5,h6{-webkit-backface-visibility:hidden;backface-visibility:
 }
 
 /* popout profil membre */
-
+.headerTop-3C2Zn0 {
+    height: 180px;
+}
+.userPopout-3XzG_A .avatarHint-1qgaV3 {
+    height: 150px !important;
+    margin-top: -45px;
+    overflow: visible;
+}
+.userPopout-3XzG_A .avatarHint-1qgaV3 foreignObject {
+    height: 150px !important;
+    width: 150px;
+}
+.userPopout-3XzG_A .wrapper-3t9DeA {
+    background-clip: padding-box;
+    position: relative;
+    background: 50% 50%/cover;
+    border-radius: 10px!important;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 150px!important;
+    height: 150px!important;
+    border: none;
+    margin-top: -10px !important;
+}
+.userPopout-3XzG_A .avatarHint-2ohlkz {
+    margin-top: -90px !important;
+}
 .userPopout-3XzG_A .mask-3OgeRz {
     background-clip: padding-box;
     position: relative;
