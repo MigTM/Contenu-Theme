@@ -500,6 +500,12 @@ body,p,h1,h2,h3,h4,h5,h6{-webkit-backface-visibility:hidden;backface-visibility:
 .clickable-18m--O:hover .name-IbjUBS {
     background-color: var(--couleur-theme-0-75);
 }
+.childWrapper-anI2G9 {
+    background-color: transparent;
+}
+.childWrapper-anI2G9:hover, .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background-color: var(--couleur-theme) !important;
+}
 
 /* couleur texte nom channel */
 .theme-dark .name-3_Dsmg {
@@ -714,12 +720,26 @@ body,p,h1,h2,h3,h4,h5,h6{-webkit-backface-visibility:hidden;backface-visibility:
     opacity: 1;
 }
 
+
 /* Bouton ajouter un amis */
 
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary, .tabBar-1E2ExX .primary-3j8BhM {
     background-color: var(--couleur-theme-0-5) !important;
 }
 
+.item-3HpYcP span{
+    color: var(--couleur-blanc) !important;
+}
+.item-3HpYcP[style*="background-color: rgb(67, 181, 129)"]{
+    background-color: var(--couleur-theme) !important;
+}
+
+.actionDeny-18IZiW {
+    background-color: var(--couleur-rouge-0-5) !important;
+}
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.actionDeny-18IZiW:hover {
+    background-color: var(--couleur-rouge-0-5) !important;
+}
 /* bouton selectionner tous... */
 
 .theme-dark #friends .tab-bar .tab-bar-item.selected {
@@ -1477,6 +1497,10 @@ body,p,h1,h2,h3,h4,h5,h6{-webkit-backface-visibility:hidden;backface-visibility:
 }
 .option-popout .btn-item {
     color: var(--couleur-theme);
+}
+
+.button-14-BFJ.enabled-2cQ-u7:hover {
+    background-color: var(--couleur-gris-foncer);
 }
 
 /* popout ajout d'amis dans conversation */
@@ -2538,10 +2562,10 @@ color: var(--couleur-blanc-0-75);
 }
 
 /* Liste amis */
-.theme-dark #friends .friends-table .friends-row:hover {
+.theme-dark #friends .friends-table .friends-row:hover, .clickable-1JJAn8.container-2Pjhx-:hover, .selected-aXhQR6:hover .layout-2DM8Md {
     background-color: var(--couleur-theme-0-75);
 }
-.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action-voice-call, .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action-video-call, .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action-voice-call, .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action-video-call, .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9, .selected-aXhQR6 .layout-2DM8Md {
     background-color: var(--couleur-theme-0-5);
 }
 .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action-voice-call:hover, .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action-video-call:hover, .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:hover {
