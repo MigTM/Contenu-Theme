@@ -1,6 +1,7 @@
 /* Transparence toute l'app */
 
-.appMount-3VJmYg, .container-2lgZY8, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .appMount-3lHmkl {
+
+.appMount-3VJmYg, .container-2lgZY8, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .appMount-3lHmkl, .app-2rEoOp {
     background-color: rgba(0,0,0,0.05);
 }
 
@@ -24,10 +25,10 @@
     background-color: transparent !important;
 }
 /* Transparence liste channel */
-.channels-Ie2l6A {
+.channels-Ie2l6A, .platform-win .sidebar-2K8pFh {
     background-color: rgba(0,0,0,0.55) !important;
 }
-.container-2Thooq, .container-PNkimc {
+.container-2Thooq, .container-PNkimc, .panels-j1Uci_, .privateChannels-1nO12o {
     background-color: transparent !important;
 }
 /* Transparence appel channel vocal */
@@ -204,4 +205,3 @@
 .theme-dark .searchResultsWrap-2DKFzt {
     background-color: rgba(0,0,0,0.05);
 }
-
