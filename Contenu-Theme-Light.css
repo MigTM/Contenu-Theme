@@ -2591,6 +2591,18 @@ color: var(--couleur-blanc-0-75);
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover {
     background-color: var(--couleur-theme-0-25);
 }
+.scrollerThemed-2oenus .name-uJV0GL, .scrollerThemed-2oenus .header-zu8eWb {
+    color: var(--couleur-theme);
+}
+.scrollerThemed-2oenus .text-zpzAjW {
+    color: var(--couleur-theme-0-75);
+}
+.scrollerThemed-2oenus .da-selected .name-uJV0GL, .scrollerThemed-2oenus .channel-2QD9_O:hover .name-uJV0GL {
+    color: var(--couleur-blanc);
+}
+.scrollerThemed-2oenus .da-selected .text-zpzAjW, .scrollerThemed-2oenus .channel-2QD9_O:hover .text-zpzAjW {
+    color: var(--couleur-blanc-0-75);
+}
 /* bouton ajouter un amis */
 
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
