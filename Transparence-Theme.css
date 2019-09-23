@@ -16,7 +16,7 @@
 .theme-dark .guildsWrapper-5TJh6A, .theme-dark .wrapper-1Rf91z {
     background-color: rgba(0,0,0,0.6) !important;
 }
-.theme-dark .wrapper-2lTRaf {
+.theme-dark .wrapper-2lTRaf, .scroller-2TZvBN {
     background-color: transparent !important;
 }
 
@@ -25,7 +25,7 @@
     background-color: transparent !important;
 }
 /* Transparence liste channel */
-.channels-Ie2l6A, .platform-win .sidebar-2K8pFh {
+.channels-Ie2l6A, .platform-win .sidebar-2K8pFh, .sidebar-2K8pFh {
     background-color: rgba(0,0,0,0.55) !important;
 }
 .container-2Thooq, .container-PNkimc, .panels-j1Uci_, .privateChannels-1nO12o {
@@ -59,7 +59,7 @@
     background-color: rgba(0,0,0,0.6) !important;
 }
 /* Transparence chat */
-.theme-dark .friends-table, .theme-dark .messagesWrapper-3lZDfY, .theme-dark .chat-3bRxxu form {
+.theme-dark .friends-table, .theme-dark .messagesWrapper-3lZDfY, .theme-dark .chat-3bRxxu form, .messages-3amgkR {
     background-color: transparent !important;
 }
 /* Transparence liste membre */
@@ -71,7 +71,9 @@
 .theme-dark #friends, #friends, .theme-dark .container-3gCOGc {
     background-color: rgba(0,0,0,0.5) !important;
 }
-
+.scroller-1JbKMe {
+	background-color: transparent !important;
+}
 /* Transparence activité */
 .theme-dark .activityFeed-1C0EmJ {
     background-color: rgba(0,0,0,0.5) !important;
@@ -105,7 +107,7 @@
 }
 
 /* Transparence menu paramètre */
-.theme-dark .standardSidebarView-3F1I7i {
+.theme-dark .standardSidebarView-3F1I7i, .sidebarRegionScroller-3MXcoP, .contentRegionScroller-26nc1e {
     background-color: transparent !important;
 }
 /* Transparence liste menu */
