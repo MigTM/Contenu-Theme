@@ -358,9 +358,6 @@ body,p,h1,h2,h3,h4,h5,h6{-webkit-backface-visibility:hidden;backface-visibility:
 .theme-dark .comment-4IWttf .innerNoAutocomplete-1WpcVO  .textArea-2Spzkt {
     color: var(--couleur-blanc) !important;
 }
-.theme-dark .comment-4IWttf .innerAutocomplete-1PN280  .textArea-2Spzkt {
-    color: var(--couleur-blanc) !important;
-}
 .inner-1JeGVc .innerAutocomplete-1PN280 .textArea-2Spzkt {
   color: var(--couleur-blanc) !important;
 }
@@ -1355,7 +1352,7 @@ body,p,h1,h2,h3,h4,h5,h6{-webkit-backface-visibility:hidden;backface-visibility:
     box-shadow: inset 0 0 0 2px hsla(0, 43%, 35%, 0.6) ;
 }
 .headerPlaying-j0WQBV, .headerTop-27AvhA, .theme-dark .headerNormal-T_seeN, .headerSpotify-zpWxgT, .headerStreaming-2FjmGz, .headerXbox-3G-4PF {
-    background-color: var(--couleur-foncer-2) !important;
+    background-color: var(--couleur-foncer-3) !important;
 }
 .headerText-2sdzFM {
     margin-bottom: -10px !important;
@@ -1363,8 +1360,8 @@ body,p,h1,h2,h3,h4,h5,h6{-webkit-backface-visibility:hidden;backface-visibility:
 .bodyTitle-Y0qMQz {
     color: white;
     text-align: center;
-    background-color: var(--couleur-foncer-2);
-    border: 1px var(--couleur-foncer-3) solid;
+    background-color: var(--couleur-foncer-3);
+    border: 1px var(--couleur-foncer-2) solid;
   border-radius: 2px;
 }
 .note-3kmerW textarea {
@@ -1430,19 +1427,22 @@ body,p,h1,h2,h3,h4,h5,h6{-webkit-backface-visibility:hidden;backface-visibility:
     border-bottom: 0px solid !important;
 }
 .theme-dark .note-3kmerW textarea:focus {
+    background-color: var(--couleur-foncer-3);
+}
+.theme-dark .bodyInner-245q0L{
     background-color: var(--couleur-foncer-2);
 }
 .theme-dark .note-3kmerW textarea, .body-3ND3kc .empty-2WtT5s .emptyText-6tYmO5, .connectedAccounts-repVzS .connectedAccountName-f8AEe2 {
     color: var(--couleur-blanc) !important;
 }
 #autocomplete-popout header {
-    background-color: var(--couleur-foncer-2);
+    background-color: var(--couleur-foncer-3);
 }
 .theme-dark #autocomplete-popout section {
     background-color: var(--couleur-foncer-1);
 }
 .theme-dark #autocomplete-popout .row.selected {
-    background: var(--couleur-foncer-2);
+    background: var(--couleur-foncer-3);
     border-radius: 10px;
 }
 #autocomplete-popout .row {
