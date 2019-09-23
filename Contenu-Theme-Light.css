@@ -358,6 +358,9 @@ body,p,h1,h2,h3,h4,h5,h6{-webkit-backface-visibility:hidden;backface-visibility:
 .theme-dark .comment-4IWttf .innerNoAutocomplete-1WpcVO  .textArea-2Spzkt {
     color: var(--couleur-blanc) !important;
 }
+.theme-dark .comment-4IWttf .innerAutocomplete-1PN280  .textArea-2Spzkt {
+    color: var(--couleur-blanc) !important;
+}
 .inner-1JeGVc .innerAutocomplete-1PN280 .textArea-2Spzkt {
   color: var(--couleur-blanc) !important;
 }
