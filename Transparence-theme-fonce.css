@@ -71,8 +71,8 @@
 .theme-dark #friends, #friends, .theme-dark .container-3gCOGc {
     background-color: rgba(0,0,0,0.5) !important;
 }
-.scroller-1JbKMe {
-	background-color: transparent !important;
+.scroller-1JbKMe, .friendsTable-133bsv .friendsTableBody-1ZhKif {
+    background-color: transparent !important;
 }
 /* Transparence activité */
 .theme-dark .activityFeed-1C0EmJ {
@@ -90,7 +90,7 @@
 .theme-dark .gameLibrary-TTDw4Y {
   background-color: rgba(0,0,0,0.5) !important;
 }
-.theme-dark .header-39GIC8 {
+.theme-dark .header-39GIC8, .scroller-1IIF0A, .scroller-9moviB {
   background-color: transparent !important;
 }
 
