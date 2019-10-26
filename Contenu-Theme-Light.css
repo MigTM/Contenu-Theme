@@ -1257,7 +1257,7 @@ body,p,h1,h2,h3,h4,h5,h6{-webkit-backface-visibility:hidden;backface-visibility:
 
 /* popout profil membre */
 .headerTop-3C2Zn0 {
-    height: 180px;
+    max-height: 300px;
 }
 .userPopout-3XzG_A .avatarHint-1qgaV3 {
     height: 150px !important;
@@ -1499,6 +1499,24 @@ body,p,h1,h2,h3,h4,h5,h6{-webkit-backface-visibility:hidden;backface-visibility:
     border-color: transparent;
 }
 
+/* statut personnalisé */
+
+.theme-dark .root-1gCeng {
+	background-color: var(--couleur-theme-0-5);
+}
+.theme-dark .lookFilled-1h1y05.select-1Pkeg4:focus, .theme-dark .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b, .theme-dark .lookFilled-1h1y05.selectOpen-hQuR6b {
+	border-color: var(--couleur-gris-foncer);
+}
+.theme-dark .popout-2sKjHu {
+	background-color: var(--couleur-gris-foncer);	
+	border-color: var(--couleur-gris-foncer);
+}
+.theme-dark .optionActive-KkAdqq {
+	background: var(--couleur-theme-0-75);
+}
+.theme-dark .optionNormal-12VR9V:hover {
+	background-color: var(--couleur-theme-0-5);
+}
 /* popout paramètre messages */
 .small-popout-box {
     background-color: var(--couleur-gris-foncer-0-6);
